@@ -106,6 +106,11 @@ export default async (req) => {
   const relevantes = seleccionarMetodologiasRelevantes(ultimoMensaje, modulo);
   const systemFinal = (system || '') + formatearContexto(relevantes);
 
+  // La API de Anthropic solo acepta "role" y "content" por mensaje — cualquier
+  // campo extra (como el "ts" que usa el frontend para el historial local)
+  // hace que la petición falle con un 400. Nos quedamos solo con lo permitido.
+  const messagesLimpios = messages.map(m => ({ role: m.role, content: m.content }));
+
   const anthropicRes = await fetch(ANTHROPIC_API_URL, {
     method: 'POST',
     headers: {
@@ -117,7 +122,7 @@ export default async (req) => {
       model: MODEL,
       max_tokens: MAX_TOKENS,
       system: systemFinal,
-      messages,
+      messages: messagesLimpios,
       stream: true,
     }),
   });
