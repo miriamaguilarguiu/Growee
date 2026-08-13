@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# El chat usa streaming: nos aseguramos de que Netlify no cachee la respuesta.
+[[headers]]
+  for = "/.netlify/functions/chat"
+  [headers.values]
+    Cache-Control = "no-cache"
