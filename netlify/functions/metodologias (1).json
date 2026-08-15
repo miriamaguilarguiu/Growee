@@ -1,0 +1,3607 @@
+{
+  "version": "4.0-combinado",
+  "generado": "2026-08-15",
+  "descripcion": "Base de conocimiento combinada: 400 metodologias (200 bienestar + 200 coaching) para el chat de Growee.",
+  "metodologias": [
+    {
+      "id": "b001",
+      "modulo": "bienestar",
+      "nombre": "Terapia Cognitivo-Conductual (TCC)",
+      "autor": "Aaron Beck",
+      "anio": 1960,
+      "resumen": "Identifica y reestructura pensamientos automáticos distorsionados que generan malestar emocional, sustituyéndolos por interpretaciones más realistas.",
+      "cuando_usar": "Ansiedad, depresión leve-moderada, pensamientos rumiativos o catastrofistas."
+    },
+    {
+      "id": "b002",
+      "modulo": "bienestar",
+      "nombre": "Terapia Racional Emotiva Conductual (TREC)",
+      "autor": "Albert Ellis",
+      "anio": 1955,
+      "resumen": "Modelo ABC: identifica la creencia irracional (B) entre el evento activador (A) y la consecuencia emocional (C) para disputarla.",
+      "cuando_usar": "Creencias rígidas o exigencias poco realistas ('debería', 'tengo que')."
+    },
+    {
+      "id": "b003",
+      "modulo": "bienestar",
+      "nombre": "Terapia de Aceptación y Compromiso (ACT)",
+      "autor": "Steven Hayes",
+      "anio": 1986,
+      "resumen": "Fomenta aceptar pensamientos y emociones difíciles sin luchar contra ellos, actuando según los valores personales.",
+      "cuando_usar": "Evitación experiencial, bloqueo por miedo al malestar, pérdida de sentido."
+    },
+    {
+      "id": "b004",
+      "modulo": "bienestar",
+      "nombre": "Terapia Dialéctico-Conductual (DBT)",
+      "autor": "Marsha Linehan",
+      "anio": 1993,
+      "resumen": "Combina aceptación y cambio; entrena regulación emocional, tolerancia al malestar y efectividad interpersonal.",
+      "cuando_usar": "Emociones intensas y desregulación, impulsividad, conflictos relacionales recurrentes."
+    },
+    {
+      "id": "b005",
+      "modulo": "bienestar",
+      "nombre": "Reducción de Estrés Basada en Mindfulness (MBSR)",
+      "autor": "Jon Kabat-Zinn",
+      "anio": 1979,
+      "resumen": "Programa estructurado de atención plena para reducir la reactividad al estrés mediante la observación no reactiva del momento presente.",
+      "cuando_usar": "Estrés crónico, rumiación, dificultad para desconectar del trabajo."
+    },
+    {
+      "id": "b006",
+      "modulo": "bienestar",
+      "nombre": "Terapia Cognitiva Basada en Mindfulness (MBCT)",
+      "autor": "Zindel Segal, Mark Williams, John Teasdale",
+      "anio": 2002,
+      "resumen": "Combina TCC y mindfulness para prevenir recaídas depresivas, interrumpiendo patrones de rumiación.",
+      "cuando_usar": "Historial de episodios depresivos, riesgo de recaída, rumiación negativa."
+    },
+    {
+      "id": "b007",
+      "modulo": "bienestar",
+      "nombre": "Activación Conductual",
+      "autor": "Peter Lewinsohn / Christopher Martell",
+      "anio": 2001,
+      "resumen": "Aumenta gradualmente actividades placenteras o con sentido para romper el círculo de evitación y bajo ánimo.",
+      "cuando_usar": "Apatía, desmotivación, aislamiento, síntomas depresivos leves."
+    },
+    {
+      "id": "b008",
+      "modulo": "bienestar",
+      "nombre": "Terapia Centrada en la Persona",
+      "autor": "Carl Rogers",
+      "anio": 1951,
+      "resumen": "Ofrece escucha empática, aceptación incondicional y autenticidad para que la persona encuentre su propia solución.",
+      "cuando_usar": "Necesidad de desahogo, procesos de autoexploración, baja autoestima."
+    },
+    {
+      "id": "b009",
+      "modulo": "bienestar",
+      "nombre": "Terapia Focalizada en las Emociones (EFT)",
+      "autor": "Leslie Greenberg / Sue Johnson",
+      "anio": 1985,
+      "resumen": "Ayuda a identificar, procesar y transformar emociones primarias no expresadas que sostienen el malestar.",
+      "cuando_usar": "Emociones difusas o negadas, conflictos de pareja, dificultad para nombrar lo que se siente."
+    },
+    {
+      "id": "b010",
+      "modulo": "bienestar",
+      "nombre": "Terapia Interpersonal (IPT)",
+      "autor": "Gerald Klerman, Myrna Weissman",
+      "anio": 1984,
+      "resumen": "Trabaja el malestar emocional a través de conflictos, duelos o transiciones en las relaciones interpersonales.",
+      "cuando_usar": "Conflictos con compañeros o jefes, duelo, cambios de rol."
+    },
+    {
+      "id": "b011",
+      "modulo": "bienestar",
+      "nombre": "Terapia de Resolución de Problemas",
+      "autor": "Thomas D'Zurilla, Marvin Goldfried",
+      "anio": 1971,
+      "resumen": "Entrena un proceso estructurado (definir, generar opciones, decidir, actuar, evaluar) para afrontar problemas concretos.",
+      "cuando_usar": "Sensación de bloqueo ante una decisión o problema práctico concreto."
+    },
+    {
+      "id": "b012",
+      "modulo": "bienestar",
+      "nombre": "Modelo Transteórico del Cambio",
+      "autor": "James Prochaska, Carlo DiClemente",
+      "anio": 1983,
+      "resumen": "Describe las etapas (precontemplación, contemplación, preparación, acción, mantenimiento) por las que pasa un cambio de hábito.",
+      "cuando_usar": "Resistencia a cambiar un hábito, ambivalencia sobre iniciar un cambio."
+    },
+    {
+      "id": "b013",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autodeterminación",
+      "autor": "Edward Deci, Richard Ryan",
+      "anio": 1985,
+      "resumen": "Explica la motivación intrínseca a través de tres necesidades: autonomía, competencia y relación.",
+      "cuando_usar": "Falta de motivación, sensación de trabajo impuesto o sin propósito."
+    },
+    {
+      "id": "b014",
+      "modulo": "bienestar",
+      "nombre": "Psicología Positiva",
+      "autor": "Martin Seligman",
+      "anio": 1998,
+      "resumen": "Desplaza el foco del déficit a las fortalezas y emociones positivas como vía de bienestar sostenible.",
+      "cuando_usar": "Deseo de mejorar el bienestar general, no solo reducir el malestar."
+    },
+    {
+      "id": "b015",
+      "modulo": "bienestar",
+      "nombre": "Modelo PERMA",
+      "autor": "Martin Seligman",
+      "anio": 2011,
+      "resumen": "Define cinco pilares del bienestar: emociones positivas, compromiso, relaciones, sentido y logro.",
+      "cuando_usar": "Diagnóstico general de qué área del bienestar está más descuidada."
+    },
+    {
+      "id": "b016",
+      "modulo": "bienestar",
+      "nombre": "Terapia Narrativa",
+      "autor": "Michael White, David Epston",
+      "anio": 1990,
+      "resumen": "Ayuda a reescribir la historia personal separando a la persona del problema ('la persona no es el problema, el problema es el problema').",
+      "cuando_usar": "Identidad muy fusionada con una etiqueta o problema ('soy un fracaso')."
+    },
+    {
+      "id": "b017",
+      "modulo": "bienestar",
+      "nombre": "Terapia Breve Centrada en Soluciones",
+      "autor": "Steve de Shazer, Insoo Kim Berg",
+      "anio": 1982,
+      "resumen": "Se centra en identificar excepciones al problema y construir sobre lo que ya funciona, en vez de analizar la causa.",
+      "cuando_usar": "Necesidad de avanzar rápido, foco en soluciones más que en el origen del malestar."
+    },
+    {
+      "id": "b018",
+      "modulo": "bienestar",
+      "nombre": "Respiración Diafragmática",
+      "autor": "Basada en investigación en biofeedback y fisiología del estrés",
+      "anio": 1970,
+      "resumen": "Técnica de respiración lenta y profunda que activa el sistema nervioso parasimpático y reduce la activación fisiológica.",
+      "cuando_usar": "Ansiedad aguda, tensión física, previo a una situación estresante."
+    },
+    {
+      "id": "b019",
+      "modulo": "bienestar",
+      "nombre": "Relajación Muscular Progresiva",
+      "autor": "Edmund Jacobson",
+      "anio": 1938,
+      "resumen": "Tensa y relaja grupos musculares de forma secuencial para reducir la tensión física asociada al estrés.",
+      "cuando_usar": "Tensión muscular, dificultad para conciliar el sueño, ansiedad somática."
+    },
+    {
+      "id": "b020",
+      "modulo": "bienestar",
+      "nombre": "Entrenamiento Autógeno",
+      "autor": "Johannes Schultz",
+      "anio": 1932,
+      "resumen": "Autosugestión guiada de sensaciones de peso y calor corporal para inducir un estado de relajación profunda.",
+      "cuando_usar": "Estrés crónico, dificultad para relajarse conscientemente."
+    },
+    {
+      "id": "b021",
+      "modulo": "bienestar",
+      "nombre": "Técnica de Grounding 5-4-3-2-1",
+      "autor": "Basada en terapia sensorial del trauma",
+      "anio": 1990,
+      "resumen": "Usa los cinco sentidos para anclar la atención al presente y reducir la disociación o la ansiedad aguda.",
+      "cuando_usar": "Ataques de pánico, sensación de desconexión, ansiedad muy intensa."
+    },
+    {
+      "id": "b022",
+      "modulo": "bienestar",
+      "nombre": "EMDR (Desensibilización y Reprocesamiento por Movimientos Oculares)",
+      "autor": "Francine Shapiro",
+      "anio": 1987,
+      "resumen": "Procesa recuerdos perturbadores mediante estimulación bilateral, reduciendo su carga emocional.",
+      "cuando_usar": "Recuerdos traumáticos no resueltos — requiere derivación a profesional certificado."
+    },
+    {
+      "id": "b023",
+      "modulo": "bienestar",
+      "nombre": "Experiencia Somática",
+      "autor": "Peter Levine",
+      "anio": 1997,
+      "resumen": "Trabaja las sensaciones corporales asociadas al trauma para completar respuestas de defensa incompletas.",
+      "cuando_usar": "Malestar corporal persistente sin causa médica clara, tras eventos de alto estrés."
+    },
+    {
+      "id": "b024",
+      "modulo": "bienestar",
+      "nombre": "Autocompasión",
+      "autor": "Kristin Neff",
+      "anio": 2003,
+      "resumen": "Entrena tratarse con la misma amabilidad que se ofrecería a un amigo, reconociendo la humanidad compartida del sufrimiento.",
+      "cuando_usar": "Autocrítica severa, perfeccionismo, culpa desproporcionada."
+    },
+    {
+      "id": "b025",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Regulación Emocional",
+      "autor": "James Gross",
+      "anio": 1998,
+      "resumen": "Describe cinco puntos de intervención (selección de situación, modificación, atención, cambio cognitivo, respuesta) para regular una emoción.",
+      "cuando_usar": "Explosiones emocionales, dificultad para gestionar la intensidad de una emoción."
+    },
+    {
+      "id": "b026",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Apego",
+      "autor": "John Bowlby, Mary Ainsworth",
+      "anio": 1969,
+      "resumen": "Explica cómo los patrones de vínculo temprano influyen en la forma de relacionarse y regular emociones en la adultez.",
+      "cuando_usar": "Patrones repetitivos en relaciones, miedo al abandono o a la intimidad."
+    },
+    {
+      "id": "b027",
+      "modulo": "bienestar",
+      "nombre": "Reestructuración Cognitiva",
+      "autor": "Aaron Beck (desarrollo dentro de la TCC)",
+      "anio": 1970,
+      "resumen": "Proceso guiado para identificar una distorsión cognitiva (ej. pensamiento todo-o-nada) y sustituirla por una interpretación equilibrada.",
+      "cuando_usar": "Pensamientos automáticos negativos recurrentes ante una situación concreta."
+    },
+    {
+      "id": "b028",
+      "modulo": "bienestar",
+      "nombre": "Modelo Job Demands-Resources (JD-R)",
+      "autor": "Arnold Bakker, Evangelia Demerouti",
+      "anio": 2001,
+      "resumen": "Explica el burnout como desequilibrio entre las demandas del puesto y los recursos disponibles para afrontarlas.",
+      "cuando_usar": "Diagnóstico de causas de agotamiento laboral y priorización de qué recurso reforzar."
+    },
+    {
+      "id": "b029",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Burnout de Maslach",
+      "autor": "Christina Maslach",
+      "anio": 1981,
+      "resumen": "Define el burnout en tres dimensiones: agotamiento emocional, despersonalización y baja realización personal.",
+      "cuando_usar": "Sospecha de burnout, para identificar en qué dimensión está el mayor impacto."
+    },
+    {
+      "id": "b030",
+      "modulo": "bienestar",
+      "nombre": "Higiene del Sueño",
+      "autor": "Basada en guías clínicas de medicina del sueño",
+      "anio": 1977,
+      "resumen": "Conjunto de hábitos (horarios, luz, cafeína, pantallas) que favorecen un sueño reparador.",
+      "cuando_usar": "Insomnio leve, sueño de mala calidad asociado a hábitos."
+    },
+    {
+      "id": "b031",
+      "modulo": "bienestar",
+      "nombre": "Escritura Expresiva",
+      "autor": "James Pennebaker",
+      "anio": 1986,
+      "resumen": "Escribir libremente sobre una experiencia emocional durante varios días consecutivos reduce su impacto fisiológico y psicológico.",
+      "cuando_usar": "Necesidad de procesar un evento difícil, dificultad para verbalizarlo en voz alta."
+    },
+    {
+      "id": "b032",
+      "modulo": "bienestar",
+      "nombre": "Aceptación Radical",
+      "autor": "Tara Brach / integrada en DBT de Marsha Linehan",
+      "anio": 2003,
+      "resumen": "Aceptar plenamente una realidad dolorosa que no se puede cambiar, para dejar de sufrir por resistirse a ella.",
+      "cuando_usar": "Situaciones irreversibles (despido, diagnóstico, pérdida) generando sufrimiento añadido por la resistencia."
+    },
+    {
+      "id": "b033",
+      "modulo": "bienestar",
+      "nombre": "Modelo Cognitivo de la Ansiedad",
+      "autor": "David M. Clark",
+      "anio": 1986,
+      "resumen": "Explica cómo la interpretación catastrofista de sensaciones corporales mantiene y amplifica la ansiedad.",
+      "cuando_usar": "Ansiedad ante síntomas físicos (taquicardia, mareo) sin causa médica."
+    },
+    {
+      "id": "b034",
+      "modulo": "bienestar",
+      "nombre": "Terapia de Exposición",
+      "autor": "Basada en el condicionamiento clásico, Joseph Wolpe",
+      "anio": 1958,
+      "resumen": "Exposición gradual y controlada a lo que genera miedo para reducir la respuesta de evitación.",
+      "cuando_usar": "Evitación de situaciones concretas (hablar en público, volar) por miedo anticipatorio."
+    },
+    {
+      "id": "b035",
+      "modulo": "bienestar",
+      "nombre": "Journaling Terapéutico",
+      "autor": "Práctica derivada de la escritura expresiva de Pennebaker",
+      "anio": 1990,
+      "resumen": "Registro diario y estructurado de pensamientos y emociones para ganar perspectiva y detectar patrones.",
+      "cuando_usar": "Dificultad para identificar qué desencadena el malestar recurrente."
+    },
+    {
+      "id": "b036",
+      "modulo": "bienestar",
+      "nombre": "Técnica de la Silla Vacía",
+      "autor": "Fritz Perls (Terapia Gestalt)",
+      "anio": 1951,
+      "resumen": "Dialogar imaginariamente con una persona ausente o una parte de uno mismo para resolver un conflicto emocional no cerrado.",
+      "cuando_usar": "Conversaciones pendientes, conflicto interno no resuelto."
+    },
+    {
+      "id": "b037",
+      "modulo": "bienestar",
+      "nombre": "Terapia Gestalt",
+      "autor": "Fritz Perls, Laura Perls, Paul Goodman",
+      "anio": 1951,
+      "resumen": "Trabaja el 'aquí y ahora', integrando pensamiento, emoción y cuerpo para cerrar asuntos inconclusos.",
+      "cuando_usar": "Desconexión entre lo que se siente y lo que se expresa."
+    },
+    {
+      "id": "b038",
+      "modulo": "bienestar",
+      "nombre": "Logoterapia",
+      "autor": "Viktor Frankl",
+      "anio": 1946,
+      "resumen": "Centra la recuperación en encontrar sentido, incluso en circunstancias adversas, como motor de resiliencia.",
+      "cuando_usar": "Sensación de vacío o falta de propósito, crisis existenciales."
+    },
+    {
+      "id": "b039",
+      "modulo": "bienestar",
+      "nombre": "Modelo Biopsicosocial",
+      "autor": "George Engel",
+      "anio": 1977,
+      "resumen": "Explica el malestar como resultado de la interacción entre factores biológicos, psicológicos y sociales.",
+      "cuando_usar": "Malestar con causas mixtas (salud física, contexto laboral, estado emocional)."
+    },
+    {
+      "id": "b040",
+      "modulo": "bienestar",
+      "nombre": "Terapia Centrada en la Compasión (CFT)",
+      "autor": "Paul Gilbert",
+      "anio": 2009,
+      "resumen": "Entrena el sistema de calma y afiliación para contrarrestar la autocrítica y la vergüenza excesivas.",
+      "cuando_usar": "Vergüenza, autocrítica intensa, dificultad para recibir apoyo."
+    },
+    {
+      "id": "b041",
+      "modulo": "bienestar",
+      "nombre": "Mindfulness para el Dolor y el Malestar Crónico",
+      "autor": "Jon Kabat-Zinn (aplicación clínica de MBSR)",
+      "anio": 1982,
+      "resumen": "Aplica la atención plena a la relación con el malestar físico o emocional persistente, reduciendo el sufrimiento añadido.",
+      "cuando_usar": "Malestar físico o emocional de larga duración sin solución inmediata."
+    },
+    {
+      "id": "b042",
+      "modulo": "bienestar",
+      "nombre": "Modelo de las Etapas del Duelo",
+      "autor": "Elisabeth Kübler-Ross",
+      "anio": 1969,
+      "resumen": "Describe fases habituales (negación, ira, negociación, tristeza, aceptación) que ayudan a normalizar el proceso de pérdida.",
+      "cuando_usar": "Duelo por pérdida personal, laboral o de un proyecto importante."
+    },
+    {
+      "id": "b043",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Resiliencia",
+      "autor": "Boris Cyrulnik / Ann Masten",
+      "anio": 1999,
+      "resumen": "Explica la resiliencia como proceso ordinario y entrenable, no como rasgo excepcional, apoyado en factores protectores.",
+      "cuando_usar": "Recuperación tras una adversidad, refuerzo de recursos personales."
+    },
+    {
+      "id": "b044",
+      "modulo": "bienestar",
+      "nombre": "Técnica STOP",
+      "autor": "Práctica derivada de programas de mindfulness clínico",
+      "anio": 1990,
+      "resumen": "Parar, respirar, observar y proceder: pausa breve para interrumpir una reacción automática ante el estrés.",
+      "cuando_usar": "Reacciones impulsivas, necesidad de una pausa rápida en medio de la jornada."
+    },
+    {
+      "id": "b045",
+      "modulo": "bienestar",
+      "nombre": "Body Scan",
+      "autor": "Jon Kabat-Zinn",
+      "anio": 1979,
+      "resumen": "Recorrido mental de atención por el cuerpo para reconectar con las sensaciones físicas y soltar tensión.",
+      "cuando_usar": "Desconexión del cuerpo, tensión física acumulada, dificultad para relajarse."
+    },
+    {
+      "id": "b046",
+      "modulo": "bienestar",
+      "nombre": "Modelo ABC de Ellis",
+      "autor": "Albert Ellis",
+      "anio": 1957,
+      "resumen": "Descompone una reacción emocional en Evento Activador, Creencia y Consecuencia, para intervenir sobre la creencia.",
+      "cuando_usar": "Reacciones emocionales desproporcionadas ante un hecho concreto."
+    },
+    {
+      "id": "b047",
+      "modulo": "bienestar",
+      "nombre": "Bienestar Subjetivo (SWB)",
+      "autor": "Ed Diener",
+      "anio": 1984,
+      "resumen": "Mide el bienestar a partir de la satisfacción vital, el afecto positivo y la ausencia de afecto negativo.",
+      "cuando_usar": "Evaluación general de cómo está la persona más allá de un problema puntual."
+    },
+    {
+      "id": "b048",
+      "modulo": "bienestar",
+      "nombre": "Técnica de Reetiquetado Cognitivo",
+      "autor": "Desarrollo aplicado de la TCC de Beck",
+      "anio": 1976,
+      "resumen": "Sustituye una etiqueta negativa global ('soy un desastre') por una descripción específica y menos generalizadora del hecho concreto.",
+      "cuando_usar": "Autoetiquetado negativo tras un error o fallo puntual."
+    },
+    {
+      "id": "b049",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Conservación de Recursos (COR)",
+      "autor": "Stevan Hobfoll",
+      "anio": 1989,
+      "resumen": "Explica el estrés como resultado de la pérdida real o percibida de recursos valorados (tiempo, energía, apoyo).",
+      "cuando_usar": "Sensación de sobrecarga por acumulación de exigencias sin recursos suficientes."
+    },
+    {
+      "id": "b050",
+      "modulo": "bienestar",
+      "nombre": "Modelo Cognitivo-Conductual del Insomnio (TCC-I)",
+      "autor": "Charles Morin",
+      "anio": 1993,
+      "resumen": "Adapta la TCC específicamente a los pensamientos y hábitos que perpetúan el insomnio.",
+      "cuando_usar": "Insomnio persistente asociado a preocupación por no dormir."
+    },
+    {
+      "id": "c001",
+      "modulo": "coaching",
+      "nombre": "Modelo GROW",
+      "autor": "John Whitmore",
+      "anio": 1992,
+      "resumen": "Estructura la conversación en cuatro fases: Goal (objetivo), Reality (realidad), Options (opciones) y Will (voluntad de actuar).",
+      "cuando_usar": "Punto de partida estándar para cualquier conversación de coaching orientada a la acción."
+    },
+    {
+      "id": "c002",
+      "modulo": "coaching",
+      "nombre": "Coaching Co-Activo",
+      "autor": "Henry Kimsey-House, Karen Kimsey-House",
+      "anio": 1998,
+      "resumen": "Aborda a la persona completa, no solo el problema, equilibrando el foro (contexto vital) y el fulcro (punto de apoyo para el cambio).",
+      "cuando_usar": "Cuando el reto profesional está entrelazado con valores o vida personal."
+    },
+    {
+      "id": "c003",
+      "modulo": "coaching",
+      "nombre": "Modelo OSKAR",
+      "autor": "Mark McKergow, Paul Z. Jackson",
+      "anio": 2002,
+      "resumen": "Outcome, Scaling, Know-how, Affirm, Review: coaching breve centrado en soluciones y en el progreso ya conseguido.",
+      "cuando_usar": "Conversaciones cortas donde se necesita avanzar rápido hacia una acción concreta."
+    },
+    {
+      "id": "c004",
+      "modulo": "coaching",
+      "nombre": "Modelo CLEAR",
+      "autor": "Peter Hawkins",
+      "anio": 1985,
+      "resumen": "Contract, Listen, Explore, Action, Review: enfatiza el contrato inicial y la revisión final de la sesión.",
+      "cuando_usar": "Sesiones de coaching donde conviene fijar expectativas claras desde el inicio."
+    },
+    {
+      "id": "c005",
+      "modulo": "coaching",
+      "nombre": "Las 4 Disciplinas de la Ejecución",
+      "autor": "Chris McChesney, Sean Covey, Jim Huling",
+      "anio": 2012,
+      "resumen": "Enfocarse en lo crucialmente importante, actuar sobre medidas predictivas, llevar un marcador visible y crear cadencia de rendición de cuentas.",
+      "cuando_usar": "Ejecución de objetivos de equipo en medio de muchas prioridades urgentes."
+    },
+    {
+      "id": "c006",
+      "modulo": "coaching",
+      "nombre": "Feedback SBI (Situación-Comportamiento-Impacto)",
+      "autor": "Center for Creative Leadership",
+      "anio": 1970,
+      "resumen": "Estructura el feedback describiendo la situación concreta, el comportamiento observado y su impacto, evitando juicios de carácter.",
+      "cuando_usar": "Dar feedback correctivo o de reconocimiento de forma específica y no acusatoria."
+    },
+    {
+      "id": "c007",
+      "modulo": "coaching",
+      "nombre": "Radical Candor",
+      "autor": "Kim Scott",
+      "anio": 2017,
+      "resumen": "Combina reto directo con cuidado personal genuino como base de un feedback honesto y efectivo.",
+      "cuando_usar": "Managers que evitan el conflicto o que son directos sin empatía."
+    },
+    {
+      "id": "c008",
+      "modulo": "coaching",
+      "nombre": "Liderazgo Situacional",
+      "autor": "Paul Hersey, Ken Blanchard",
+      "anio": 1969,
+      "resumen": "Adapta el estilo de liderazgo (dirigir, entrenar, apoyar, delegar) al nivel de competencia y compromiso de cada colaborador.",
+      "cuando_usar": "Definir cuánto acompañamiento necesita una persona concreta en una tarea concreta."
+    },
+    {
+      "id": "c009",
+      "modulo": "coaching",
+      "nombre": "Inteligencia Emocional en el Liderazgo",
+      "autor": "Daniel Goleman",
+      "anio": 1995,
+      "resumen": "Identifica autoconciencia, autorregulación, motivación, empatía y habilidades sociales como pilares del liderazgo eficaz.",
+      "cuando_usar": "Dificultades de liderazgo relacionadas con la gestión de las propias emociones o las del equipo."
+    },
+    {
+      "id": "c010",
+      "modulo": "coaching",
+      "nombre": "Los 5 Lenguajes del Aprecio en el Trabajo",
+      "autor": "Gary Chapman, Paul White",
+      "anio": 2011,
+      "resumen": "Identifica cómo prefiere cada persona recibir reconocimiento: palabras, tiempo, servicio, regalos o contacto físico apropiado.",
+      "cuando_usar": "Reconocimiento de equipo que no está teniendo el efecto motivador esperado."
+    },
+    {
+      "id": "c011",
+      "modulo": "coaching",
+      "nombre": "Las 5 Disfunciones de un Equipo",
+      "autor": "Patrick Lencioni",
+      "anio": 2002,
+      "resumen": "Modela la falta de confianza, miedo al conflicto, falta de compromiso, evitación de responsabilidad y falta de resultados como cadena causal.",
+      "cuando_usar": "Diagnóstico de por qué un equipo no rinde a pesar de tener buen talento."
+    },
+    {
+      "id": "c012",
+      "modulo": "coaching",
+      "nombre": "Comunicación No Violenta (CNV)",
+      "autor": "Marshall Rosenberg",
+      "anio": 1970,
+      "resumen": "Estructura la comunicación en observación, sentimiento, necesidad y petición, evitando juicios y exigencias.",
+      "cuando_usar": "Conversaciones difíciles o con carga emocional alta entre compañeros."
+    },
+    {
+      "id": "c013",
+      "modulo": "coaching",
+      "nombre": "Modelo DISC",
+      "autor": "William Moulton Marston",
+      "anio": 1928,
+      "resumen": "Clasifica estilos de comportamiento en Dominancia, Influencia, Estabilidad y Cumplimiento para adaptar la comunicación.",
+      "cuando_usar": "Conflictos de estilo de comunicación entre miembros de un equipo."
+    },
+    {
+      "id": "c014",
+      "modulo": "coaching",
+      "nombre": "CliftonStrengths (Fortalezas Gallup)",
+      "autor": "Don Clifton",
+      "anio": 1998,
+      "resumen": "Identifica los talentos naturales dominantes de una persona para desarrollarlos en vez de centrarse solo en corregir debilidades.",
+      "cuando_usar": "Planificación de desarrollo profesional centrada en fortalezas."
+    },
+    {
+      "id": "c015",
+      "modulo": "coaching",
+      "nombre": "Liderazgo Transformacional",
+      "autor": "Bernard Bass",
+      "anio": 1985,
+      "resumen": "Describe un liderazgo que inspira mediante visión, estimulación intelectual y atención individualizada, más allá del intercambio transaccional.",
+      "cuando_usar": "Necesidad de motivar a un equipo más allá de incentivos concretos."
+    },
+    {
+      "id": "c016",
+      "modulo": "coaching",
+      "nombre": "Liderazgo Auténtico",
+      "autor": "Bill George",
+      "anio": 2003,
+      "resumen": "Defiende liderar desde los valores propios, la autoconciencia y la coherencia, en vez de imitar un modelo externo.",
+      "cuando_usar": "Managers que sienten que están 'actuando un papel' que no encaja con ellos."
+    },
+    {
+      "id": "c017",
+      "modulo": "coaching",
+      "nombre": "Objetivos SMART",
+      "autor": "George T. Doran (popularizado por Peter Drucker)",
+      "anio": 1981,
+      "resumen": "Un objetivo eficaz debe ser específico, medible, alcanzable, relevante y con plazo definido.",
+      "cuando_usar": "Definición de cualquier objetivo profesional o de equipo."
+    },
+    {
+      "id": "c018",
+      "modulo": "coaching",
+      "nombre": "OKR (Objectives and Key Results)",
+      "autor": "Andy Grove (popularizado por John Doerr)",
+      "anio": 1970,
+      "resumen": "Define un objetivo cualitativo ambicioso junto a resultados clave medibles que indican si se ha alcanzado.",
+      "cuando_usar": "Alineación de objetivos de equipo con la estrategia de la empresa."
+    },
+    {
+      "id": "c019",
+      "modulo": "coaching",
+      "nombre": "Feedback 360",
+      "autor": "Desarrollo colectivo en gestión de RRHH",
+      "anio": 1950,
+      "resumen": "Recoge feedback de superiores, iguales y colaboradores para obtener una visión completa del desempeño de una persona.",
+      "cuando_usar": "Evaluaciones de desarrollo de liderazgo con perspectiva múltiple."
+    },
+    {
+      "id": "c020",
+      "modulo": "coaching",
+      "nombre": "Conversaciones Difíciles",
+      "autor": "Douglas Stone, Bruce Patton, Sheila Heen",
+      "anio": 1999,
+      "resumen": "Distingue tres conversaciones simultáneas (los hechos, los sentimientos, la identidad) presentes en cualquier conflicto difícil.",
+      "cuando_usar": "Preparación para una conversación de feedback duro o un desacuerdo importante."
+    },
+    {
+      "id": "c021",
+      "modulo": "coaching",
+      "nombre": "Conversaciones Cruciales",
+      "autor": "Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler",
+      "anio": 2002,
+      "resumen": "Técnicas para mantener el diálogo abierto en momentos de alto riesgo, opiniones opuestas y emociones fuertes.",
+      "cuando_usar": "Discrepancias importantes donde el silencio o la agresividad son la reacción habitual."
+    },
+    {
+      "id": "c022",
+      "modulo": "coaching",
+      "nombre": "Método de Negociación de Harvard",
+      "autor": "Roger Fisher, William Ury",
+      "anio": 1981,
+      "resumen": "Negociación basada en intereses (no en posiciones), separando a las personas del problema y buscando opciones de beneficio mutuo.",
+      "cuando_usar": "Negociaciones internas de recursos, condiciones o desacuerdos de equipo."
+    },
+    {
+      "id": "c023",
+      "modulo": "coaching",
+      "nombre": "Los 7 Hábitos de la Gente Altamente Efectiva",
+      "autor": "Stephen Covey",
+      "anio": 1989,
+      "resumen": "Principios de efectividad personal y de liderazgo como la proactividad, empezar con el fin en mente y buscar primero comprender.",
+      "cuando_usar": "Desarrollo general de hábitos de efectividad y liderazgo."
+    },
+    {
+      "id": "c024",
+      "modulo": "coaching",
+      "nombre": "Mindset de Crecimiento",
+      "autor": "Carol Dweck",
+      "anio": 2006,
+      "resumen": "Distingue entre una mentalidad fija (el talento es innato) y una de crecimiento (las capacidades se desarrollan con esfuerzo).",
+      "cuando_usar": "Miedo al fracaso, resistencia a asumir retos nuevos."
+    },
+    {
+      "id": "c025",
+      "modulo": "coaching",
+      "nombre": "Estado de Flow",
+      "autor": "Mihaly Csikszentmihalyi",
+      "anio": 1975,
+      "resumen": "Describe el estado de máxima concentración y disfrute cuando el reto de una tarea encaja con la habilidad de la persona.",
+      "cuando_usar": "Diseño de tareas o rediseño de puesto para aumentar el compromiso."
+    },
+    {
+      "id": "c026",
+      "modulo": "coaching",
+      "nombre": "Coaching Ontológico",
+      "autor": "Fernando Flores, Rafael Echeverría",
+      "anio": 1990,
+      "resumen": "Trabaja sobre el lenguaje, las emociones y el cuerpo como los tres dominios que constituyen la forma de observar y actuar de una persona.",
+      "cuando_usar": "Patrones de comportamiento repetidos que no cambian solo con más información."
+    },
+    {
+      "id": "c027",
+      "modulo": "coaching",
+      "nombre": "Modelo TGROW",
+      "autor": "Extensión de John Whitmore",
+      "anio": 1992,
+      "resumen": "Añade la fase Topic (tema) antes del modelo GROW para clarificar de qué se va a hablar exactamente en la sesión.",
+      "cuando_usar": "Cuando el tema de la conversación no está claro al empezar."
+    },
+    {
+      "id": "c028",
+      "modulo": "coaching",
+      "nombre": "Indagación Apreciativa (Appreciative Inquiry)",
+      "autor": "David Cooperrider",
+      "anio": 1987,
+      "resumen": "Enfoca el cambio organizacional o personal a partir de lo que ya funciona bien, en vez de partir del problema.",
+      "cuando_usar": "Procesos de cambio donde el enfoque en problemas ha generado desmotivación."
+    },
+    {
+      "id": "c029",
+      "modulo": "coaching",
+      "nombre": "Análisis Transaccional",
+      "autor": "Eric Berne",
+      "anio": 1958,
+      "resumen": "Analiza la interacción entre los estados del yo (Padre, Adulto, Niño) para entender patrones de comunicación disfuncionales.",
+      "cuando_usar": "Conflictos recurrentes de comunicación con un patrón que se repite."
+    },
+    {
+      "id": "c030",
+      "modulo": "coaching",
+      "nombre": "Matriz de Eisenhower",
+      "autor": "Atribuida a Dwight D. Eisenhower, formalizada por Stephen Covey",
+      "anio": 1954,
+      "resumen": "Clasifica tareas según urgencia e importancia para priorizar el foco del tiempo y la energía.",
+      "cuando_usar": "Sobrecarga de tareas, dificultad para priorizar."
+    },
+    {
+      "id": "c031",
+      "modulo": "coaching",
+      "nombre": "Niveles de Delegación",
+      "autor": "Desarrollo en gestión de equipos, popularizado por Ken Blanchard",
+      "anio": 1985,
+      "resumen": "Define un gradiente desde 'hazlo tú' hasta 'decide tú' para delegar con el nivel de autonomía adecuado.",
+      "cuando_usar": "Managers que delegan poco o delegan sin dar suficiente contexto."
+    },
+    {
+      "id": "c032",
+      "modulo": "coaching",
+      "nombre": "Teoría de los Dos Factores de Herzberg",
+      "autor": "Frederick Herzberg",
+      "anio": 1959,
+      "resumen": "Distingue factores higiénicos (evitan la insatisfacción) de factores motivadores (generan compromiso real).",
+      "cuando_usar": "Diagnóstico de por qué mejorar condiciones no aumenta el compromiso del equipo."
+    },
+    {
+      "id": "c033",
+      "modulo": "coaching",
+      "nombre": "Teoría X e Y",
+      "autor": "Douglas McGregor",
+      "anio": 1960,
+      "resumen": "Contrasta dos supuestos sobre las personas en el trabajo (necesitan control vs. buscan responsabilidad) que moldean el estilo de gestión.",
+      "cuando_usar": "Revisión de las creencias de fondo de un manager sobre su equipo."
+    },
+    {
+      "id": "c034",
+      "modulo": "coaching",
+      "nombre": "Etapas de Formación de Equipos (Tuckman)",
+      "autor": "Bruce Tuckman",
+      "anio": 1965,
+      "resumen": "Describe las fases Forming, Storming, Norming, Performing por las que pasa un equipo nuevo o reconfigurado.",
+      "cuando_usar": "Equipos de nueva formación o con cambios recientes de miembros."
+    },
+    {
+      "id": "c035",
+      "modulo": "coaching",
+      "nombre": "Coaching Sistémico",
+      "autor": "Peter Hawkins",
+      "anio": 2005,
+      "resumen": "Sitúa a la persona dentro de su sistema (equipo, organización) y trabaja las relaciones, no solo al individuo aislado.",
+      "cuando_usar": "El reto de la persona está muy condicionado por la dinámica de su equipo u organización."
+    },
+    {
+      "id": "c036",
+      "modulo": "coaching",
+      "nombre": "Ciclo de Aprendizaje Experiencial",
+      "autor": "David Kolb",
+      "anio": 1984,
+      "resumen": "Describe el aprendizaje como un ciclo de experiencia concreta, observación reflexiva, conceptualización y experimentación activa.",
+      "cuando_usar": "Diseño de planes de desarrollo basados en la experiencia real, no solo en teoría."
+    },
+    {
+      "id": "c037",
+      "modulo": "coaching",
+      "nombre": "Modelo de Cambio de 8 Pasos",
+      "autor": "John Kotter",
+      "anio": 1995,
+      "resumen": "Secuencia de pasos (crear urgencia, formar coalición, comunicar visión...) para liderar un cambio organizacional exitoso.",
+      "cuando_usar": "Liderar un cambio de equipo, proceso o reestructuración."
+    },
+    {
+      "id": "c038",
+      "modulo": "coaching",
+      "nombre": "Modelo ADKAR",
+      "autor": "Jeff Hiatt (Prosci)",
+      "anio": 2003,
+      "resumen": "Awareness, Desire, Knowledge, Ability, Reinforcement: modelo de gestión del cambio centrado en la persona, no en el proceso.",
+      "cuando_usar": "Resistencia individual a un cambio impuesto desde la organización."
+    },
+    {
+      "id": "c039",
+      "modulo": "coaching",
+      "nombre": "Liderazgo de Servicio",
+      "autor": "Robert Greenleaf",
+      "anio": 1970,
+      "resumen": "Plantea que el líder existe primero para servir al desarrollo de su equipo, y solo después para dirigir.",
+      "cuando_usar": "Managers con estilo muy jerárquico que buscan un enfoque más colaborativo."
+    },
+    {
+      "id": "c040",
+      "modulo": "coaching",
+      "nombre": "Anclas de Carrera",
+      "autor": "Edgar Schein",
+      "anio": 1978,
+      "resumen": "Identifica el valor o motivación central (técnica, gestión, autonomía, seguridad...) que guía las decisiones de carrera de una persona.",
+      "cuando_usar": "Decisiones de cambio de rol, promoción o reorientación profesional."
+    },
+    {
+      "id": "c041",
+      "modulo": "coaching",
+      "nombre": "Ikigai",
+      "autor": "Tradición japonesa, sistematizada por Héctor García y Francesc Miralles",
+      "anio": 2016,
+      "resumen": "Marco que cruza lo que se ama, en lo que se es bueno, lo que el mundo necesita y lo que se puede monetizar para encontrar propósito.",
+      "cuando_usar": "Búsqueda de sentido o reorientación vocacional."
+    },
+    {
+      "id": "c042",
+      "modulo": "coaching",
+      "nombre": "Job Crafting",
+      "autor": "Amy Wrzesniewski, Jane Dutton",
+      "anio": 2001,
+      "resumen": "Rediseñar activamente tareas, relaciones o percepción del propio puesto para aumentar su sentido y encaje personal.",
+      "cuando_usar": "Insatisfacción con el puesto actual sin posibilidad de cambiarlo por completo."
+    },
+    {
+      "id": "c043",
+      "modulo": "coaching",
+      "nombre": "Design Thinking aplicado al desarrollo profesional",
+      "autor": "IDEO / Stanford d.school (adaptado por Bill Burnett y Dave Evans)",
+      "anio": 2016,
+      "resumen": "Aplica el proceso de empatizar, definir, idear, prototipar y testear al diseño de la propia carrera profesional.",
+      "cuando_usar": "Indecisión vocacional, exploración de alternativas de carrera."
+    },
+    {
+      "id": "c044",
+      "modulo": "coaching",
+      "nombre": "Teoría del Establecimiento de Metas",
+      "autor": "Edwin Locke, Gary Latham",
+      "anio": 1968,
+      "resumen": "Demuestra que metas específicas y desafiantes generan mejor desempeño que metas vagas o poco exigentes.",
+      "cuando_usar": "Definición de metas de desarrollo individual poco concretas."
+    },
+    {
+      "id": "c045",
+      "modulo": "coaching",
+      "nombre": "Método WOOP",
+      "autor": "Gabriele Oettingen",
+      "anio": 2001,
+      "resumen": "Wish, Outcome, Obstacle, Plan: combina visualización positiva con planificación realista de obstáculos.",
+      "cuando_usar": "Objetivos que se quedan solo en intención sin traducirse en acción."
+    },
+    {
+      "id": "c046",
+      "modulo": "coaching",
+      "nombre": "Peer Coaching",
+      "autor": "Desarrollo colectivo en formación de adultos",
+      "anio": 1980,
+      "resumen": "Estructura conversaciones de coaching entre personas del mismo nivel jerárquico, sin relación de autoridad.",
+      "cuando_usar": "Cuando conviene una perspectiva de igual a igual, sin jerarquía de por medio."
+    },
+    {
+      "id": "c047",
+      "modulo": "coaching",
+      "nombre": "Feedforward",
+      "autor": "Marshall Goldsmith",
+      "anio": 2002,
+      "resumen": "En vez de dar feedback sobre el pasado, se piden sugerencias concretas orientadas a mejorar en el futuro.",
+      "cuando_usar": "Personas que se ponen a la defensiva ante el feedback tradicional."
+    },
+    {
+      "id": "c048",
+      "modulo": "coaching",
+      "nombre": "Toma de Decisiones Racional-Emocional",
+      "autor": "Desarrollo integrador basado en Daniel Kahneman y Antonio Damasio",
+      "anio": 2000,
+      "resumen": "Reconoce que las decisiones combinan análisis racional y señales emocionales, y entrena a integrarlas conscientemente.",
+      "cuando_usar": "Bloqueo ante una decisión importante por conflicto entre lógica y sensación."
+    },
+    {
+      "id": "c049",
+      "modulo": "coaching",
+      "nombre": "Modelo de Competencias ICF",
+      "autor": "International Coaching Federation",
+      "anio": 1995,
+      "resumen": "Define competencias clave del coaching profesional: escucha activa, generar conciencia, facilitar el crecimiento del cliente.",
+      "cuando_usar": "Marco de referencia general de cómo debe conducirse cualquier sesión de coaching."
+    },
+    {
+      "id": "c050",
+      "modulo": "coaching",
+      "nombre": "Modelo de las Tres Preguntas",
+      "autor": "John Whitmore",
+      "anio": 1992,
+      "resumen": "Simplifica cualquier sesión a tres preguntas: ¿qué quieres lograr?, ¿dónde estás ahora?, ¿qué vas a hacer?",
+      "cuando_usar": "Conversaciones muy breves donde no hay tiempo para el modelo GROW completo."
+    },
+    {
+      "id": "b051",
+      "modulo": "bienestar",
+      "nombre": "Fenómeno del Impostor",
+      "autor": "Pauline Clance, Suzanne Imes",
+      "anio": 1978,
+      "resumen": "Describe la sensación persistente de no merecer los propios logros y el miedo a ser 'descubierto' como un fraude, pese a la evidencia de competencia.",
+      "cuando_usar": "Dudas sobre la propia valía profesional a pesar de resultados objetivos."
+    },
+    {
+      "id": "b052",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Apreciación Cognitiva del Estrés",
+      "autor": "Richard Lazarus, Susan Folkman",
+      "anio": 1984,
+      "resumen": "Explica la ansiedad anticipatoria como resultado de una evaluación (appraisal) de amenaza que supera los recursos percibidos para afrontarla.",
+      "cuando_usar": "Anticipar lo peor antes de una reunión o evento importante."
+    },
+    {
+      "id": "b053",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autoeficacia",
+      "autor": "Albert Bandura",
+      "anio": 1977,
+      "resumen": "La creencia en la propia capacidad para lograr una tarea predice el desempeño más que la habilidad real en sí misma.",
+      "cuando_usar": "No sentirse capaz de un rol nuevo, aunque se tenga la competencia objetiva."
+    },
+    {
+      "id": "b054",
+      "modulo": "bienestar",
+      "nombre": "Teoría de los Estilos de Respuesta (Rumiación)",
+      "autor": "Susan Nolen-Hoeksema",
+      "anio": 1991,
+      "resumen": "Explica cómo dar vueltas repetidamente a un problema sin pasar a la acción mantiene y agrava el malestar emocional.",
+      "cuando_usar": "No poder dejar de darle vueltas a algo sin llegar a ninguna conclusión."
+    },
+    {
+      "id": "b055",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Transición de Bridges",
+      "autor": "William Bridges",
+      "anio": 1991,
+      "resumen": "Describe tres fases psicológicas del cambio: el final (soltar), la zona neutra (incertidumbre) y el nuevo comienzo.",
+      "cuando_usar": "Gestionar un cambio no elegido — despido, reestructuración, cambio de equipo."
+    },
+    {
+      "id": "b056",
+      "modulo": "bienestar",
+      "nombre": "Granularidad Emocional",
+      "autor": "Lisa Feldman Barrett",
+      "anio": 2004,
+      "resumen": "La capacidad de nombrar emociones con precisión (en vez de 'mal' o 'estresado') mejora la regulación emocional.",
+      "cuando_usar": "Dificultad para identificar exactamente qué se está sintiendo."
+    },
+    {
+      "id": "b057",
+      "modulo": "bienestar",
+      "nombre": "Investigación sobre la Gratitud",
+      "autor": "Robert Emmons",
+      "anio": 2003,
+      "resumen": "Practicar el registro consciente de la gratitud reduce el afecto negativo y aumenta el bienestar subjetivo a corto plazo.",
+      "cuando_usar": "Antídoto breve contra el cinismo o el desgaste del día a día."
+    },
+    {
+      "id": "b058",
+      "modulo": "bienestar",
+      "nombre": "Estilo Explicativo",
+      "autor": "Martin Seligman",
+      "anio": 1990,
+      "resumen": "Distingue un estilo explicativo pesimista (permanente, generalizado, personal) de uno optimista al interpretar los fracasos propios.",
+      "cuando_usar": "Explicar los propios fracasos de forma desproporcionada o generalizada."
+    },
+    {
+      "id": "b059",
+      "modulo": "bienestar",
+      "nombre": "Efecto Zeigarnik",
+      "autor": "Bluma Zeigarnik",
+      "anio": 1927,
+      "resumen": "Las tareas inacabadas ocupan más espacio mental que las terminadas, generando una sensación difusa de sobrecarga.",
+      "cuando_usar": "Dificultad para desconectar por tareas pendientes sin cerrar."
+    },
+    {
+      "id": "b060",
+      "modulo": "bienestar",
+      "nombre": "Modelo SCARF",
+      "autor": "David Rock",
+      "anio": 2008,
+      "resumen": "Identifica cinco dominios (Estatus, Certeza, Autonomía, Relación, Justicia) que activan amenaza o recompensa social en el cerebro.",
+      "cuando_usar": "Explicar por qué un cambio pequeño mal comunicado genera una reacción desproporcionada."
+    },
+    {
+      "id": "b061",
+      "modulo": "bienestar",
+      "nombre": "Triángulo Dramático de Karpman",
+      "autor": "Stephen Karpman",
+      "anio": 1968,
+      "resumen": "Describe el patrón relacional entre Víctima, Perseguidor y Rescatador que perpetúa un conflicto sin resolverlo.",
+      "cuando_usar": "Cargar constantemente con los problemas del equipo como 'rescatador'."
+    },
+    {
+      "id": "b062",
+      "modulo": "bienestar",
+      "nombre": "Investigación sobre la Vulnerabilidad",
+      "autor": "Brené Brown",
+      "anio": 2010,
+      "resumen": "Muestra que mostrarse vulnerable, incluyendo pedir ayuda, se percibe como fortaleza y no como debilidad.",
+      "cuando_usar": "Dificultad para pedir ayuda por miedo a parecer incompetente."
+    },
+    {
+      "id": "b063",
+      "modulo": "bienestar",
+      "nombre": "Perfeccionismo Multidimensional",
+      "autor": "Paul Hewitt, Gordon Flett",
+      "anio": 1991,
+      "resumen": "Distingue perfeccionismo autoimpuesto, orientado a otros y socialmente prescrito como fuentes distintas de autoexigencia.",
+      "cuando_usar": "Sensación de que nunca es suficiente pese a los resultados obtenidos."
+    },
+    {
+      "id": "b064",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Justicia Organizacional",
+      "autor": "Jerald Greenberg",
+      "anio": 1987,
+      "resumen": "Distingue justicia distributiva, procedimental e interpersonal como dimensiones que determinan si un proceso se percibe como justo.",
+      "cuando_usar": "Evaluaciones de desempeño que se perciben como injustas."
+    },
+    {
+      "id": "b065",
+      "modulo": "bienestar",
+      "nombre": "Áreas de la Vida Laboral",
+      "autor": "Christina Maslach, Michael Leiter",
+      "anio": 1997,
+      "resumen": "Identifica seis áreas de desajuste (carga, control, recompensa, comunidad, justicia, valores) que predicen el burnout antes de que aparezca.",
+      "cuando_usar": "Detectar señales tempranas de burnout antes de llegar al agotamiento."
+    },
+    {
+      "id": "b066",
+      "modulo": "bienestar",
+      "nombre": "Ley de Yerkes-Dodson",
+      "autor": "Robert Yerkes, John Dodson",
+      "anio": 1908,
+      "resumen": "Relaciona el nivel de activación (arousal) con el rendimiento en forma de U invertida: ni muy poco ni demasiado estrés optimizan el desempeño.",
+      "cuando_usar": "Gestionar la ansiedad antes de una presentación importante."
+    },
+    {
+      "id": "b067",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Hiperactivación del Insomnio",
+      "autor": "Michael Perlis",
+      "anio": 1997,
+      "resumen": "Explica el insomnio persistente como un estado de activación fisiológica y cognitiva elevada, más allá de los malos hábitos de sueño.",
+      "cuando_usar": "Dormir mal pese a sentirse agotado."
+    },
+    {
+      "id": "b068",
+      "modulo": "bienestar",
+      "nombre": "Autocompasión Aplicada al Trabajo",
+      "autor": "Kristin Neff, Christopher Germer",
+      "anio": 2013,
+      "resumen": "Adapta el entrenamiento en autocompasión a contextos de rendimiento y evaluación laboral.",
+      "cuando_usar": "Recuperarse de un día realmente malo en el trabajo."
+    },
+    {
+      "id": "b069",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Vergüenza y Culpa",
+      "autor": "June Tangney",
+      "anio": 2002,
+      "resumen": "Distingue la culpa adaptativa (centrada en el acto: 'hice algo mal') de la vergüenza destructiva (centrada en el yo: 'soy malo').",
+      "cuando_usar": "Culpa persistente que no se suelta tras un error."
+    },
+    {
+      "id": "b070",
+      "modulo": "bienestar",
+      "nombre": "Primeros Auxilios en Salud Mental",
+      "autor": "Betty Kitchener, Anthony Jorm",
+      "anio": 2000,
+      "resumen": "Protocolo para reconocer señales de malestar en otra persona y ofrecer apoyo inicial antes de derivar a ayuda profesional.",
+      "cuando_usar": "Acompañar a un compañero que lo está pasando mal, sin saber cómo ayudar."
+    },
+    {
+      "id": "b071",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Establecimiento de Límites",
+      "autor": "Henry Cloud, John Townsend",
+      "anio": 1992,
+      "resumen": "Marco para poner límites saludables sin culpa, distinguiendo responsabilidad propia de la ajena.",
+      "cuando_usar": "Poner un límite sin sentir que se está siendo una mala persona."
+    },
+    {
+      "id": "b072",
+      "modulo": "bienestar",
+      "nombre": "Jerarquía de Necesidades",
+      "autor": "Abraham Maslow",
+      "anio": 1943,
+      "resumen": "Ordena las necesidades humanas desde las fisiológicas hasta la autorrealización, útil para diagnosticar qué nivel está desatendido.",
+      "cuando_usar": "Diagnóstico general de qué necesidad básica está sin cubrir antes de abordar aspiraciones mayores."
+    },
+    {
+      "id": "b073",
+      "modulo": "bienestar",
+      "nombre": "Optimismo Aprendido",
+      "autor": "Martin Seligman",
+      "anio": 1991,
+      "resumen": "Entrena a disputar activamente los pensamientos pesimistas automáticos para desarrollar un estilo explicativo más adaptativo.",
+      "cuando_usar": "Patrón repetido de anticipar el fracaso antes de intentar algo."
+    },
+    {
+      "id": "b074",
+      "modulo": "bienestar",
+      "nombre": "Fatiga por Compasión",
+      "autor": "Charles Figley",
+      "anio": 1995,
+      "resumen": "Describe el desgaste emocional de quienes cuidan o apoyan constantemente a otros, con síntomas similares al burnout.",
+      "cuando_usar": "Managers o compañeros que apoyan mucho a otros y se sienten agotados por ello."
+    },
+    {
+      "id": "b075",
+      "modulo": "bienestar",
+      "nombre": "Síndrome General de Adaptación",
+      "autor": "Hans Selye",
+      "anio": 1936,
+      "resumen": "Describe tres fases fisiológicas ante el estrés sostenido: alarma, resistencia y agotamiento.",
+      "cuando_usar": "Explicar por qué el estrés mantenido en el tiempo termina pasando factura física."
+    },
+    {
+      "id": "b076",
+      "modulo": "bienestar",
+      "nombre": "Regulación Emocional Interpersonal",
+      "autor": "John Gottman",
+      "anio": 1994,
+      "resumen": "Identifica patrones de comunicación (críticas, desprecio, actitud defensiva, evasión) que erosionan una relación si no se corrigen.",
+      "cuando_usar": "Conflicto de relación sostenido con un compañero o superior."
+    },
+    {
+      "id": "b077",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Contagio Emocional",
+      "autor": "Elaine Hatfield",
+      "anio": 1993,
+      "resumen": "Explica cómo las emociones se transmiten inconscientemente entre personas a través de la imitación de expresiones y tono.",
+      "cuando_usar": "El ambiente emocional de un equipo afecta al estado de ánimo individual."
+    },
+    {
+      "id": "b078",
+      "modulo": "bienestar",
+      "nombre": "Escala de Estrés de Holmes y Rahe",
+      "autor": "Thomas Holmes, Richard Rahe",
+      "anio": 1967,
+      "resumen": "Cuantifica el impacto acumulado de eventos vitales (cambio de trabajo, mudanza, duelo) sobre el riesgo de enfermar por estrés.",
+      "cuando_usar": "Varios cambios vitales importantes ocurriendo a la vez."
+    },
+    {
+      "id": "b079",
+      "modulo": "bienestar",
+      "nombre": "Teoría Polivagal",
+      "autor": "Stephen Porges",
+      "anio": 1994,
+      "resumen": "Explica cómo el sistema nervioso autónomo alterna entre estados de seguridad, lucha/huida y bloqueo según la percepción de amenaza.",
+      "cuando_usar": "Explicar reacciones corporales intensas (bloqueo, taquicardia) ante el estrés."
+    },
+    {
+      "id": "b080",
+      "modulo": "bienestar",
+      "nombre": "Investigación sobre el Perdón",
+      "autor": "Everett Worthington",
+      "anio": 2001,
+      "resumen": "Modelo REACH (Recordar, Empatizar, dar el regalo Altruista, Comprometerse, Hold/mantener) para procesar un agravio sin negarlo.",
+      "cuando_usar": "Resentimiento sostenido hacia un compañero o la propia empresa."
+    },
+    {
+      "id": "b081",
+      "modulo": "bienestar",
+      "nombre": "Adaptación Hedónica",
+      "autor": "Philip Brickman, Donald Campbell",
+      "anio": 1971,
+      "resumen": "Explica por qué tanto los logros como los reveses pierden intensidad emocional con el tiempo, volviendo a un punto base de bienestar.",
+      "cuando_usar": "Sensación de que ningún logro produce satisfacción duradera."
+    },
+    {
+      "id": "b082",
+      "modulo": "bienestar",
+      "nombre": "Modelo Cognitivo del Perfeccionismo",
+      "autor": "Randy Frost",
+      "anio": 1990,
+      "resumen": "Identifica seis dimensiones del perfeccionismo (estándares personales, dudas, organización, expectativas paternas...) para intervenir sobre la más disfuncional.",
+      "cuando_usar": "Perfeccionismo que bloquea la entrega de un trabajo por miedo a que no sea suficiente."
+    },
+    {
+      "id": "b083",
+      "modulo": "bienestar",
+      "nombre": "Defusión Cognitiva",
+      "autor": "Steven Hayes (dentro de ACT)",
+      "anio": 1999,
+      "resumen": "Técnica para distanciarse de un pensamiento observándolo como un evento mental, no como un hecho literal.",
+      "cuando_usar": "Pensamientos negativos muy 'pegajosos' que se viven como verdades absolutas."
+    },
+    {
+      "id": "b084",
+      "modulo": "bienestar",
+      "nombre": "Modelo Original del Burnout",
+      "autor": "Herbert Freudenberger",
+      "anio": 1974,
+      "resumen": "Primera descripción clínica del agotamiento extremo por sobreimplicación laboral, origen del concepto de burnout.",
+      "cuando_usar": "Introducción del concepto de burnout a alguien que no lo conoce."
+    },
+    {
+      "id": "b085",
+      "modulo": "bienestar",
+      "nombre": "Congruencia Personal",
+      "autor": "Carl Rogers",
+      "anio": 1961,
+      "resumen": "Describe el bienestar como la coherencia entre el yo real y el yo ideal; el malestar surge de la distancia entre ambos.",
+      "cuando_usar": "Sensación de estar viviendo o trabajando de forma incoherente con los propios valores."
+    },
+    {
+      "id": "b086",
+      "modulo": "bienestar",
+      "nombre": "Silencio y Voz en el Trabajo",
+      "autor": "Elizabeth Morrison, Frances Milliken",
+      "anio": 2000,
+      "resumen": "Explica por qué las personas callan problemas o ideas por miedo, aun sabiendo que hablar sería útil para el equipo.",
+      "cuando_usar": "Dificultad para expresar una opinión o preocupación en el equipo."
+    },
+    {
+      "id": "b087",
+      "modulo": "bienestar",
+      "nombre": "Modelo de los Dos Procesos del Sueño",
+      "autor": "Alexander Borbély",
+      "anio": 1982,
+      "resumen": "Explica el sueño como interacción entre la presión homeostática de sueño y el ritmo circadiano interno.",
+      "cuando_usar": "Entender por qué los horarios irregulares afectan tanto a la calidad del sueño."
+    },
+    {
+      "id": "b088",
+      "modulo": "bienestar",
+      "nombre": "Contagio Emocional en Equipos",
+      "autor": "Sigal Barsade",
+      "anio": 2002,
+      "resumen": "Demuestra que el estado de ánimo de una persona en un equipo se propaga y afecta al rendimiento y cohesión del grupo.",
+      "cuando_usar": "Impacto del propio estado de ánimo en el ambiente general del equipo."
+    },
+    {
+      "id": "b089",
+      "modulo": "bienestar",
+      "nombre": "Ventana de Tolerancia",
+      "autor": "Dan Siegel",
+      "anio": 1999,
+      "resumen": "Describe el rango óptimo de activación emocional en el que una persona puede pensar con claridad, fuera de la hiperactivación o el bloqueo.",
+      "cuando_usar": "Sentirse desbordado por la ansiedad de forma repentina."
+    },
+    {
+      "id": "b090",
+      "modulo": "bienestar",
+      "nombre": "Agotamiento del Yo (Ego Depletion)",
+      "autor": "Roy Baumeister",
+      "anio": 1998,
+      "resumen": "Plantea que la fuerza de voluntad es un recurso limitado que se agota con el uso repetido de autocontrol durante el día.",
+      "cuando_usar": "Explicar por qué cuesta más autorregularse al final de una jornada exigente."
+    },
+    {
+      "id": "b091",
+      "modulo": "bienestar",
+      "nombre": "Duelo No Reconocido",
+      "autor": "Kenneth Doka",
+      "anio": 1989,
+      "resumen": "Describe el duelo por pérdidas que la sociedad no valida como tal (perder un puesto, un equipo, un proyecto), y que por eso cuesta más procesar.",
+      "cuando_usar": "El duelo de un puesto o equipo que ya no existe."
+    },
+    {
+      "id": "b092",
+      "modulo": "bienestar",
+      "nombre": "Investigación sobre el Aburrimiento Laboral",
+      "autor": "Cynthia Fisher",
+      "anio": 1993,
+      "resumen": "Estudia el aburrimiento crónico en el trabajo como fuente de malestar tan relevante como la sobrecarga.",
+      "cuando_usar": "Falta de motivación por infraestimulación, no por exceso de carga."
+    },
+    {
+      "id": "b093",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Sentido del Trabajo (Job, Career, Calling)",
+      "autor": "Amy Wrzesniewski",
+      "anio": 1997,
+      "resumen": "Distingue tres orientaciones hacia el trabajo — como obligación, como carrera o como vocación — que predicen la satisfacción laboral.",
+      "cuando_usar": "Reflexionar sobre qué relación se tiene realmente con el propio trabajo."
+    },
+    {
+      "id": "b094",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Contrato Psicológico",
+      "autor": "Denise Rousseau",
+      "anio": 1989,
+      "resumen": "Describe las expectativas implícitas y no escritas entre empleado y empresa, cuya ruptura genera un malestar desproporcionado.",
+      "cuando_usar": "Sensación de traición o desencanto tras un cambio en las condiciones no explicitadas."
+    },
+    {
+      "id": "b095",
+      "modulo": "bienestar",
+      "nombre": "Modelo Cognitivo del Trauma",
+      "autor": "Anke Ehlers, David Clark",
+      "anio": 2000,
+      "resumen": "Explica cómo la interpretación negativa de un evento traumático y su memoria mantienen el malestar en el presente.",
+      "cuando_usar": "Recuerdo de un evento laboral difícil que sigue afectando en el presente."
+    },
+    {
+      "id": "b096",
+      "modulo": "bienestar",
+      "nombre": "Investigación sobre la Soledad",
+      "autor": "John Cacioppo",
+      "anio": 2008,
+      "resumen": "Demuestra que la soledad percibida (no el aislamiento objetivo) tiene un impacto medible en la salud física y mental.",
+      "cuando_usar": "Sensación de desconexión pese a estar rodeado de compañeros."
+    },
+    {
+      "id": "b097",
+      "modulo": "bienestar",
+      "nombre": "Autoamabilidad ante el Fallo",
+      "autor": "Kristin Neff",
+      "anio": 2003,
+      "resumen": "Componente de la autocompasión centrado específicamente en tratarse con amabilidad, no crítica, tras un error concreto.",
+      "cuando_usar": "Autocrítica intensa inmediatamente después de cometer un error."
+    },
+    {
+      "id": "b098",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Umbral de Recuperación",
+      "autor": "Sabine Sonnentag",
+      "anio": 2001,
+      "resumen": "Explica que desconectar psicológicamente del trabajo fuera de horario es necesario para recuperar recursos, no solo dejar de trabajar físicamente.",
+      "cuando_usar": "Seguir 'trabajando mentalmente' fuera del horario laboral."
+    },
+    {
+      "id": "b099",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Afrontamiento Proactivo",
+      "autor": "Ralf Schwarzer",
+      "anio": 1999,
+      "resumen": "Distingue el afrontamiento reactivo (ante un problema ya presente) del proactivo (anticipar y prevenir el estrés futuro).",
+      "cuando_usar": "Prevenir el agotamiento antes de que se convierta en una crisis."
+    },
+    {
+      "id": "b100",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Crecimiento Postraumático",
+      "autor": "Richard Tedeschi, Lawrence Calhoun",
+      "anio": 1996,
+      "resumen": "Describe cómo, tras una crisis, algunas personas desarrollan un cambio positivo en prioridades, relaciones o sentido vital.",
+      "cuando_usar": "Buscar sentido o aprendizaje tras superar una etapa laboral muy dura."
+    },
+    {
+      "id": "c051",
+      "modulo": "coaching",
+      "nombre": "Instrumento de Modos de Conflicto Thomas-Kilmann",
+      "autor": "Kenneth Thomas, Ralph Kilmann",
+      "anio": 1974,
+      "resumen": "Identifica cinco estilos de gestión del conflicto (competir, colaborar, comprometer, evitar, acomodar) según asertividad y cooperación.",
+      "cuando_usar": "Dos personas del equipo que no se llevan bien y repiten el mismo patrón de conflicto."
+    },
+    {
+      "id": "c052",
+      "modulo": "coaching",
+      "nombre": "Seguridad Psicológica",
+      "autor": "Amy Edmondson",
+      "anio": 1999,
+      "resumen": "Define el grado en que un equipo cree que puede tomar riesgos interpersonales (opinar, admitir errores) sin ser castigado por ello.",
+      "cuando_usar": "Un equipo no confía todavía en su manager — por dónde empezar a construir confianza."
+    },
+    {
+      "id": "c053",
+      "modulo": "coaching",
+      "nombre": "El Círculo Dorado",
+      "autor": "Simon Sinek",
+      "anio": 2009,
+      "resumen": "Plantea comunicar primero el 'por qué' (propósito), luego el 'cómo' y por último el 'qué', para generar movimiento real en el equipo.",
+      "cuando_usar": "Un equipo no se mueve pese a que el plan es objetivamente bueno."
+    },
+    {
+      "id": "c054",
+      "modulo": "coaching",
+      "nombre": "Modelo de Decisión Vroom-Yetton",
+      "autor": "Victor Vroom, Philip Yetton",
+      "anio": 1973,
+      "resumen": "Ayuda a decidir cuánto debe involucrarse al equipo en una decisión según su impacto, urgencia y nivel de experiencia requerido.",
+      "cuando_usar": "Determinar cuánto se debe consultar al equipo antes de decidir uno mismo."
+    },
+    {
+      "id": "c055",
+      "modulo": "coaching",
+      "nombre": "Lo Que Te Trajo Hasta Aquí No Te Llevará Hasta Allá",
+      "autor": "Marshall Goldsmith",
+      "anio": 2007,
+      "resumen": "Plantea que los comportamientos que llevaron al éxito en un rol pueden convertirse en un obstáculo en el siguiente nivel de responsabilidad.",
+      "cuando_usar": "Un estilo de liderazgo que funcionaba deja de ser efectivo en un rol nuevo."
+    },
+    {
+      "id": "c056",
+      "modulo": "coaching",
+      "nombre": "La Velocidad de la Confianza",
+      "autor": "Stephen M. R. Covey",
+      "anio": 2006,
+      "resumen": "Plantea que la confianza es un factor medible que acelera (o una falta de ella ralentiza) cualquier proceso de equipo.",
+      "cuando_usar": "Diagnosticar por qué los procesos de un equipo van más lentos de lo esperado."
+    },
+    {
+      "id": "c057",
+      "modulo": "coaching",
+      "nombre": "1:1 Efectivos (Manager Tools)",
+      "autor": "Mark Horstman",
+      "anio": 2004,
+      "resumen": "Estructura de reunión individual semanal centrada en la persona (10 min), la tarea (10 min) y el futuro (10 min), no en un checklist de estado.",
+      "cuando_usar": "Preguntar qué tratar en un 1:1 para que no sea un simple checklist de tareas."
+    },
+    {
+      "id": "c058",
+      "modulo": "coaching",
+      "nombre": "Líderes frente a Gestores",
+      "autor": "Warren Bennis",
+      "anio": 1985,
+      "resumen": "Distingue liderar (marcar dirección, inspirar) de gestionar (planificar, controlar, ejecutar) como funciones complementarias pero distintas.",
+      "cuando_usar": "Saber si se está liderando o solo gestionando el día a día."
+    },
+    {
+      "id": "c059",
+      "modulo": "coaching",
+      "nombre": "Calibración de Desempeño",
+      "autor": "Prácticas de gestión del talento en RRHH",
+      "anio": 1990,
+      "resumen": "Proceso de comparar evaluaciones entre managers para reducir el sesgo individual y hacerlas más consistentes y justas.",
+      "cuando_usar": "Dar una evaluación de desempeño sin que se sienta injusta o arbitraria."
+    },
+    {
+      "id": "c060",
+      "modulo": "coaching",
+      "nombre": "Arquitectura de Decisiones (Nudge)",
+      "autor": "Richard Thaler, Cass Sunstein",
+      "anio": 2008,
+      "resumen": "Muestra cómo pequeños cambios en cómo se presenta una opción influyen en la decisión, sin restringir la libertad de elegir.",
+      "cuando_usar": "Un cambio pequeño bien planteado genera mejor reacción que uno grande impuesto."
+    },
+    {
+      "id": "c061",
+      "modulo": "coaching",
+      "nombre": "Efecto Pigmalión",
+      "autor": "Robert Rosenthal, Lenore Jacobson",
+      "anio": 1968,
+      "resumen": "Demuestra que las expectativas de un líder sobre una persona influyen, sin darse cuenta, en el desempeño real de esa persona.",
+      "cuando_usar": "Impacto de las propias expectativas (positivas o negativas) sobre el rendimiento del equipo."
+    },
+    {
+      "id": "c062",
+      "modulo": "coaching",
+      "nombre": "Las Cuatro Etapas de Competencia",
+      "autor": "Noel Burch",
+      "anio": 1970,
+      "resumen": "Describe el aprendizaje de una habilidad en cuatro fases: incompetencia inconsciente, consciente, competencia consciente e inconsciente.",
+      "cuando_usar": "Normalizar la incomodidad de aprender un rol o habilidad nueva."
+    },
+    {
+      "id": "c063",
+      "modulo": "coaching",
+      "nombre": "Escucha de Nivel 3",
+      "autor": "Marco de Coaching Co-Activo",
+      "anio": 1998,
+      "resumen": "Distingue tres niveles de escucha: centrada en uno mismo, centrada en el otro, y global (incluyendo tono, energía y contexto).",
+      "cuando_usar": "Mejorar la calidad de la escucha en conversaciones de feedback o coaching."
+    },
+    {
+      "id": "c064",
+      "modulo": "coaching",
+      "nombre": "Preguntas Poderosas",
+      "autor": "International Coaching Federation",
+      "anio": 1995,
+      "resumen": "Principio de coaching que prioriza preguntas abiertas que generan reflexión, frente a preguntas cerradas o sugerentes.",
+      "cuando_usar": "Marco general para estructurar cualquier conversación de coaching."
+    },
+    {
+      "id": "c065",
+      "modulo": "coaching",
+      "nombre": "Modelo de Compromiso Laboral (Engagement)",
+      "autor": "William Kahn",
+      "anio": 1990,
+      "resumen": "Define el compromiso como la medida en que una persona se implica física, cognitiva y emocionalmente en su rol.",
+      "cuando_usar": "Diagnosticar por qué alguien del equipo parece desconectado sin decir por qué."
+    },
+    {
+      "id": "c066",
+      "modulo": "coaching",
+      "nombre": "Modelo de las Tres Zonas",
+      "autor": "Karl Rohnke",
+      "anio": 1974,
+      "resumen": "Distingue zona de confort, de aprendizaje y de pánico, para calibrar cuánto reto es productivo sin generar bloqueo.",
+      "cuando_usar": "Decidir cuánto sacar a alguien de su zona de confort sin sobrepasarle."
+    },
+    {
+      "id": "c067",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Equidad",
+      "autor": "John Stacey Adams",
+      "anio": 1963,
+      "resumen": "Plantea que la motivación depende de comparar la propia relación esfuerzo-recompensa con la de otras personas del entorno.",
+      "cuando_usar": "Desmotivación por percepción de trato desigual respecto a un compañero."
+    },
+    {
+      "id": "c068",
+      "modulo": "coaching",
+      "nombre": "Liderazgo Adaptativo",
+      "autor": "Ronald Heifetz, Marty Linsky",
+      "anio": 1994,
+      "resumen": "Distingue problemas técnicos (con solución conocida) de problemas adaptativos (que exigen cambiar creencias o hábitos del propio equipo).",
+      "cuando_usar": "Un reto de liderazgo que no se resuelve con más conocimiento técnico."
+    },
+    {
+      "id": "c069",
+      "modulo": "coaching",
+      "nombre": "Las Cinco Prácticas del Liderazgo Ejemplar",
+      "autor": "James Kouzes, Barry Posner",
+      "anio": 1987,
+      "resumen": "Identifica cinco comportamientos de liderazgo efectivo: modelar el camino, inspirar visión, desafiar el proceso, habilitar a otros y alentar el corazón.",
+      "cuando_usar": "Marco general de desarrollo de liderazgo con comportamientos observables."
+    },
+    {
+      "id": "c070",
+      "modulo": "coaching",
+      "nombre": "Compromiso Organizacional de Tres Componentes",
+      "autor": "John Meyer, Natalie Allen",
+      "anio": 1991,
+      "resumen": "Distingue el compromiso afectivo (querer quedarse), de continuidad (necesitar quedarse) y normativo (deber quedarse).",
+      "cuando_usar": "Entender por qué alguien se queda o se plantea irse de la empresa."
+    },
+    {
+      "id": "c071",
+      "modulo": "coaching",
+      "nombre": "Los Primeros 90 Días",
+      "autor": "Michael Watkins",
+      "anio": 2003,
+      "resumen": "Marco para planificar la incorporación a un nuevo rol de liderazgo, priorizando el diagnóstico antes de implementar cambios.",
+      "cuando_usar": "Primer mes liderando un equipo remoto, heredado o nuevo."
+    },
+    {
+      "id": "c072",
+      "modulo": "coaching",
+      "nombre": "Coaching Basado en Fortalezas",
+      "autor": "Alex Linley",
+      "anio": 2008,
+      "resumen": "Aplica la psicología positiva al desarrollo profesional, priorizando desarrollar fortalezas sobre corregir debilidades.",
+      "cuando_usar": "Diseño de un plan de desarrollo centrado en lo que la persona ya hace bien."
+    },
+    {
+      "id": "c073",
+      "modulo": "coaching",
+      "nombre": "Entrenamiento en Comunicación Asertiva",
+      "autor": "Joseph Wolpe",
+      "anio": 1958,
+      "resumen": "Entrena a expresar necesidades y opiniones de forma directa y respetuosa, sin pasividad ni agresividad.",
+      "cuando_usar": "Negociar sin ceder de más ni imponerse en exceso."
+    },
+    {
+      "id": "c074",
+      "modulo": "coaching",
+      "nombre": "Método 'Come la Rana'",
+      "autor": "Brian Tracy (popularizando una idea atribuida a Mark Twain)",
+      "anio": 2001,
+      "resumen": "Recomienda abordar primero la tarea más difícil o postergada del día, cuando la energía y voluntad son mayores.",
+      "cuando_usar": "Procrastinación de una tarea concreta que genera malestar por evitarla."
+    },
+    {
+      "id": "c075",
+      "modulo": "coaching",
+      "nombre": "Feedback Ascendente",
+      "autor": "Prácticas de gestión participativa",
+      "anio": 1980,
+      "resumen": "Estructura para que el equipo dé feedback a su manager, no solo al revés, como parte de una cultura de mejora continua.",
+      "cuando_usar": "Construir una cultura de feedback continuo y no solo puntual."
+    },
+    {
+      "id": "c076",
+      "modulo": "coaching",
+      "nombre": "La Escalera de la Responsabilidad",
+      "autor": "John G. Miller",
+      "anio": 2004,
+      "resumen": "Modelo QBQ (la pregunta detrás de la pregunta) que entrena a formular preguntas que fomentan la responsabilidad personal en vez de la culpa externa.",
+      "cuando_usar": "Un equipo que tiende a buscar culpables en vez de soluciones."
+    },
+    {
+      "id": "c077",
+      "modulo": "coaching",
+      "nombre": "Liderazgo de Nivel 5",
+      "autor": "Jim Collins",
+      "anio": 2001,
+      "resumen": "Describe un liderazgo que combina humildad personal con una voluntad profesional férrea, asociado a resultados sostenibles.",
+      "cuando_usar": "Reflexionar sobre el propio estilo de liderazgo a largo plazo."
+    },
+    {
+      "id": "c078",
+      "modulo": "coaching",
+      "nombre": "Autonomía, Maestría y Propósito (Drive)",
+      "autor": "Daniel Pink",
+      "anio": 2009,
+      "resumen": "Plantea que la motivación intrínseca real depende de sentir autonomía, poder mejorar en algo (maestría) y tener un propósito.",
+      "cuando_usar": "Motivar a alguien que ha perdido las ganas, más allá de incentivos económicos."
+    },
+    {
+      "id": "c079",
+      "modulo": "coaching",
+      "nombre": "Conversaciones de Reconocimiento",
+      "autor": "Prácticas de gestión del talento",
+      "anio": 2015,
+      "resumen": "Estructura conversaciones breves y frecuentes de reconocimiento específico, más efectivas que el reconocimiento genérico o esporádico.",
+      "cuando_usar": "El reconocimiento actual no parece tener impacto real en la motivación."
+    },
+    {
+      "id": "c080",
+      "modulo": "coaching",
+      "nombre": "Teoría de las Expectativas",
+      "autor": "Victor Vroom",
+      "anio": 1964,
+      "resumen": "La motivación depende de tres factores: expectativa (puedo lograrlo), instrumentalidad (llevará a un resultado) y valencia (me importa ese resultado).",
+      "cuando_usar": "Diagnosticar en qué punto concreto se rompe la motivación de alguien hacia una tarea."
+    },
+    {
+      "id": "c081",
+      "modulo": "coaching",
+      "nombre": "Modelo Integrado de Desarrollo Grupal (IMGD)",
+      "autor": "Susan Wheelan",
+      "anio": 1990,
+      "resumen": "Describe cuatro etapas de madurez de un equipo (dependencia, conflicto, confianza, trabajo) con intervenciones distintas en cada una.",
+      "cuando_usar": "Diagnosticar en qué fase de madurez está un equipo concreto."
+    },
+    {
+      "id": "c082",
+      "modulo": "coaching",
+      "nombre": "Liderazgo Distribuido",
+      "autor": "James Spillane",
+      "anio": 2001,
+      "resumen": "Plantea el liderazgo como una práctica compartida entre varias personas del equipo, no como una función exclusiva del manager.",
+      "cuando_usar": "Equipos donde el manager quiere repartir responsabilidad de liderazgo."
+    },
+    {
+      "id": "c083",
+      "modulo": "coaching",
+      "nombre": "Coaching de Equipos (Team Coaching)",
+      "autor": "Peter Hawkins",
+      "anio": 2011,
+      "resumen": "Aplica el modelo GROW y la mirada sistémica al equipo como conjunto, no solo a la conversación individual.",
+      "cuando_usar": "El reto no es de una persona concreta, sino del equipo como sistema."
+    },
+    {
+      "id": "c084",
+      "modulo": "coaching",
+      "nombre": "Capital Psicológico (PsyCap)",
+      "autor": "Fred Luthans",
+      "anio": 2007,
+      "resumen": "Define cuatro recursos entrenables (esperanza, autoeficacia, resiliencia, optimismo) que predicen el desempeño laboral.",
+      "cuando_usar": "Diseño de un plan de desarrollo centrado en recursos psicológicos, no solo técnicos."
+    },
+    {
+      "id": "c085",
+      "modulo": "coaching",
+      "nombre": "Preguntas Circulares",
+      "autor": "Mara Selvini Palazzoli (terapia sistémica)",
+      "anio": 1980,
+      "resumen": "Preguntas que invitan a describir cómo ve una situación un tercero, para ganar perspectiva sobre una dinámica relacional.",
+      "cuando_usar": "Conflictos de equipo donde cuesta ver la perspectiva de la otra persona."
+    },
+    {
+      "id": "c086",
+      "modulo": "coaching",
+      "nombre": "Coaching de Transición de Carrera",
+      "autor": "Nancy Schlossberg",
+      "anio": 1981,
+      "resumen": "Modelo de las 4S (Situación, Yo/Self, Apoyos, Estrategias) para afrontar cualquier transición profesional significativa.",
+      "cuando_usar": "Cambio de rol, promoción o etapa profesional importante."
+    },
+    {
+      "id": "c087",
+      "modulo": "coaching",
+      "nombre": "Feedback 4A",
+      "autor": "Cultura corporativa de Netflix",
+      "anio": 2010,
+      "resumen": "Marco de feedback: con Intención de Ayudar, Accionable, Apreciado y Aceptar o Rechazar sin resentimiento.",
+      "cuando_usar": "Establecer normas claras de cómo dar y recibir feedback en un equipo."
+    },
+    {
+      "id": "c088",
+      "modulo": "coaching",
+      "nombre": "Compromiso Discrecional",
+      "autor": "Estudios de employee engagement, Towers Watson",
+      "anio": 2005,
+      "resumen": "Mide el esfuerzo extra que una persona da voluntariamente más allá de lo estrictamente exigido por su puesto.",
+      "cuando_usar": "Diferenciar cumplimiento mínimo de compromiso real con el equipo."
+    },
+    {
+      "id": "c089",
+      "modulo": "coaching",
+      "nombre": "Conversaciones de Desarrollo",
+      "autor": "Julie Winkle Giulioni, Beverly Kaye",
+      "anio": 2012,
+      "resumen": "Plantea integrar conversaciones breves de desarrollo profesional en el día a día, no reservarlas solo a la evaluación anual.",
+      "cuando_usar": "Un equipo pide más desarrollo de carrera y no hay espacio formal para ello."
+    },
+    {
+      "id": "c090",
+      "modulo": "coaching",
+      "nombre": "Liderazgo Inclusivo",
+      "autor": "Juliet Bourke, Andrea Espedido",
+      "anio": 2019,
+      "resumen": "Identifica seis rasgos de liderazgo (compromiso, humildad, curiosidad cultural...) asociados a equipos que se sienten incluidos.",
+      "cuando_usar": "Un equipo diverso donde algunas voces participan menos que otras."
+    },
+    {
+      "id": "c091",
+      "modulo": "coaching",
+      "nombre": "Toma de Decisiones por Consentimiento",
+      "autor": "Gerard Endenburg (sociocracia)",
+      "anio": 1970,
+      "resumen": "Una decisión avanza si nadie tiene una objeción razonada y argumentada, sin necesitar consenso total.",
+      "cuando_usar": "Decisiones de equipo que se bloquean buscando unanimidad total."
+    },
+    {
+      "id": "c092",
+      "modulo": "coaching",
+      "nombre": "Retrospectivas Ágiles entre Pares",
+      "autor": "Prácticas ágiles de gestión de equipos",
+      "anio": 2001,
+      "resumen": "Estructura reuniones periódicas de equipo para revisar qué funcionó, qué no, y qué se prueba de forma diferente.",
+      "cuando_usar": "Un equipo que repite los mismos errores de proceso sin revisarlos nunca."
+    },
+    {
+      "id": "c093",
+      "modulo": "coaching",
+      "nombre": "Coaching de Habilidades de Presentación",
+      "autor": "Nancy Duarte",
+      "anio": 2010,
+      "resumen": "Estructura narrativa (situación actual vs. futuro deseado) para preparar presentaciones que generan impacto y no solo información.",
+      "cuando_usar": "Preparar una presentación importante ante dirección o cliente."
+    },
+    {
+      "id": "c094",
+      "modulo": "coaching",
+      "nombre": "Gestión de Expectativas",
+      "autor": "Buenas prácticas de gestión de proyectos (PMI)",
+      "anio": 1990,
+      "resumen": "Marco para alinear explícitamente qué espera cada parte de un proyecto o encargo antes de que surja el desacuerdo.",
+      "cuando_usar": "Malentendidos recurrentes sobre qué se esperaba de una entrega o tarea."
+    },
+    {
+      "id": "c095",
+      "modulo": "coaching",
+      "nombre": "Liderazgo Compartido",
+      "autor": "Craig Pearce, Jay Conger",
+      "anio": 2003,
+      "resumen": "Plantea que el liderazgo puede ejercerse de forma horizontal entre varios miembros del equipo según el momento y la tarea.",
+      "cuando_usar": "Equipos muy dependientes de una única figura de liderazgo."
+    },
+    {
+      "id": "c096",
+      "modulo": "coaching",
+      "nombre": "Curva del Cambio Aplicada a Equipos",
+      "autor": "Adaptación organizacional del modelo de Kübler-Ross",
+      "anio": 2000,
+      "resumen": "Aplica las fases emocionales del duelo (negación, resistencia, exploración, compromiso) a la reacción de un equipo ante un cambio.",
+      "cuando_usar": "Anticipar y acompañar la reacción de un equipo ante un anuncio de cambio."
+    },
+    {
+      "id": "c097",
+      "modulo": "coaching",
+      "nombre": "Liderazgo en Entornos VUCA",
+      "autor": "US Army War College",
+      "anio": 1987,
+      "resumen": "Marco para liderar en contextos Volátiles, Inciertos, Complejos y Ambiguos, priorizando claridad de propósito sobre control total.",
+      "cuando_usar": "Liderar en medio de incertidumbre alta sin toda la información disponible."
+    },
+    {
+      "id": "c098",
+      "modulo": "coaching",
+      "nombre": "Coaching Axiológico (Basado en Valores)",
+      "autor": "Salvador García, Shimon Dolan",
+      "anio": 1997,
+      "resumen": "Explora los valores personales y organizacionales en conflicto detrás de una decisión difícil, para tomarla con más coherencia.",
+      "cuando_usar": "Decisiones profesionales donde chocan valores personales y exigencias del puesto."
+    },
+    {
+      "id": "c099",
+      "modulo": "coaching",
+      "nombre": "Modelo de Herencia de Equipo",
+      "autor": "Prácticas de gestión de transiciones de liderazgo",
+      "anio": 2005,
+      "resumen": "Marco para diagnosticar la reputación, dinámicas y heridas de un equipo heredado antes de intentar cambiarlo.",
+      "cuando_usar": "Heredar un equipo con mala fama o con conflictos previos al propio manager."
+    },
+    {
+      "id": "c100",
+      "modulo": "coaching",
+      "nombre": "Estilo de Liderazgo Contingente",
+      "autor": "Fred Fiedler",
+      "anio": 1964,
+      "resumen": "Plantea que no existe un único estilo de liderazgo eficaz: la eficacia depende de la relación entre estilo del líder y el contexto concreto.",
+      "cuando_usar": "Explicar por qué el mismo estilo de liderazgo no funciona igual con todas las personas."
+    },
+    {
+      "id": "b101",
+      "modulo": "bienestar",
+      "nombre": "Terapia Metacognitiva",
+      "autor": "Adrian Wells",
+      "anio": 1994,
+      "resumen": "Se centra en cambiar la forma de relacionarse con los pensamientos (creencias sobre pensar), no su contenido.",
+      "cuando_usar": "Rumiación y preocupación excesiva que no ceden con reestructuración cognitiva estándar."
+    },
+    {
+      "id": "b102",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Regulación Emocional de Barrett",
+      "autor": "Lisa Feldman Barrett",
+      "anio": 2017,
+      "resumen": "Las emociones son construidas por el cerebro a partir de predicciones, no reacciones automáticas fijas.",
+      "cuando_usar": "Ayudar a alguien a entender por qué la misma situación le genera emociones distintas en momentos distintos."
+    },
+    {
+      "id": "b103",
+      "modulo": "bienestar",
+      "nombre": "Terapia Sensoriomotriz",
+      "autor": "Pat Ogden",
+      "anio": 2006,
+      "resumen": "Integra el cuerpo en el procesamiento de experiencias difíciles, no solo el relato verbal.",
+      "cuando_usar": "Malestar que se expresa más en el cuerpo (tensión, bloqueo) que en el discurso."
+    },
+    {
+      "id": "b104",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Compasión y Vergüenza",
+      "autor": "Paul Gilbert",
+      "anio": 2009,
+      "resumen": "La vergüenza activa el sistema de amenaza; la compasión lo desactiva y permite el cambio real.",
+      "cuando_usar": "Autocrítica muy dura que no responde a argumentos racionales."
+    },
+    {
+      "id": "b105",
+      "modulo": "bienestar",
+      "nombre": "Terapia de Sistemas Familiares Internos (IFS)",
+      "autor": "Richard Schwartz",
+      "anio": 1995,
+      "resumen": "La mente tiene 'partes' internas con roles distintos; el objetivo es escuchar y coordinar, no eliminar ninguna.",
+      "cuando_usar": "Conflicto interno sostenido entre lo que se quiere y lo que se hace."
+    },
+    {
+      "id": "b106",
+      "modulo": "bienestar",
+      "nombre": "Modelo Cognitivo de la Depresión",
+      "autor": "Aaron Beck",
+      "anio": 1967,
+      "resumen": "La tríada cognitiva negativa (yo, el mundo, el futuro) sostiene y perpetúa el estado depresivo.",
+      "cuando_usar": "Pensamientos negativos recurrentes sobre uno mismo, el entorno o el futuro."
+    },
+    {
+      "id": "b107",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Broaden-and-Build",
+      "autor": "Barbara Fredrickson",
+      "anio": 2001,
+      "resumen": "Las emociones positivas amplían el repertorio de pensamiento-acción y construyen recursos a largo plazo.",
+      "cuando_usar": "Diseñar intervenciones de bienestar centradas en aumentar emociones positivas, no solo reducir las negativas."
+    },
+    {
+      "id": "b108",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Activación Comportamental para el Estrés Laboral",
+      "autor": "Sona Dimidjian",
+      "anio": 2011,
+      "resumen": "Reconectar con actividades con sentido y refuerzo positivo contrarresta el retraimiento por sobrecarga.",
+      "cuando_usar": "Desconexión progresiva de actividades antes valoradas, típico de agotamiento incipiente."
+    },
+    {
+      "id": "b109",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autocompasión y el Rendimiento",
+      "autor": "Juliana Breines",
+      "anio": 2012,
+      "resumen": "La autocompasión, no la autocrítica, predice mayor motivación tras un fracaso.",
+      "cuando_usar": "Miedo a bajar el rendimiento si se deja de ser autoexigente."
+    },
+    {
+      "id": "b110",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Flexibilidad Psicológica",
+      "autor": "Steven Hayes",
+      "anio": 2006,
+      "resumen": "Seis procesos (aceptación, defusión, presente, yo-contexto, valores, acción comprometida) que sostienen el bienestar.",
+      "cuando_usar": "Marco integrador para explicar por qué alguien se queda atascado pese a saber qué debería hacer."
+    },
+    {
+      "id": "b111",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Estrés Percibido",
+      "autor": "Sheldon Cohen",
+      "anio": 1983,
+      "resumen": "No es el evento en sí, sino la percepción de no poder afrontarlo, lo que determina el nivel de estrés.",
+      "cuando_usar": "Diferenciar estrés objetivo de estrés subjetivamente percibido en una conversación."
+    },
+    {
+      "id": "b112",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Afrontamiento Centrado en la Emoción vs. el Problema",
+      "autor": "Susan Folkman",
+      "anio": 1980,
+      "resumen": "Distingue estrategias dirigidas a cambiar la situación de las dirigidas a regular la emoción que provoca.",
+      "cuando_usar": "Ayudar a elegir la estrategia de afrontamiento adecuada según si la situación es controlable."
+    },
+    {
+      "id": "b113",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autoestima de Rosenberg",
+      "autor": "Morris Rosenberg",
+      "anio": 1965,
+      "resumen": "La autoestima global como actitud favorable o desfavorable hacia uno mismo, medible y trabajable.",
+      "cuando_usar": "Baja autoestima general no ligada a un evento concreto."
+    },
+    {
+      "id": "b114",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Ciclo del Perfeccionismo",
+      "autor": "Gordon Flett y Paul Hewitt",
+      "anio": 1991,
+      "resumen": "Distingue perfeccionismo autoorientado, orientado a otros y socialmente prescrito, cada uno con dinámica distinta.",
+      "cuando_usar": "Diferenciar el tipo de perfeccionismo para intervenir de forma más precisa."
+    },
+    {
+      "id": "b115",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Contagio del Estrés en Equipos",
+      "autor": "Sigal Barsade",
+      "anio": 2002,
+      "resumen": "El estado emocional de una persona se transmite a otras del entorno sin mediación verbal.",
+      "cuando_usar": "Explicar por qué el ambiente de un equipo decae aunque no haya un problema explícito nombrado."
+    },
+    {
+      "id": "b116",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Regulación Emocional Interpersonal",
+      "autor": "James Coan",
+      "anio": 2006,
+      "resumen": "La presencia de otra persona de confianza reduce físicamente la respuesta al estrés (social baseline theory).",
+      "cuando_usar": "Por qué acompañar a alguien, sin resolver nada, ya reduce su malestar."
+    },
+    {
+      "id": "b117",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autodeterminación en el Trabajo",
+      "autor": "Marylène Gagné",
+      "anio": 2005,
+      "resumen": "Aplicación de la teoría de Deci y Ryan específicamente al contexto laboral y la motivación en el puesto.",
+      "cuando_usar": "Diseñar condiciones de trabajo que sostengan motivación intrínseca."
+    },
+    {
+      "id": "b118",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Umbral de Recuperación Diaria",
+      "autor": "Sabine Sonnentag",
+      "anio": 2003,
+      "resumen": "La calidad de la desconexión fuera del trabajo predice el nivel de energía disponible al día siguiente.",
+      "cuando_usar": "Fatiga que no mejora pese a dormir suficientes horas."
+    },
+    {
+      "id": "b119",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autoeficacia Colectiva",
+      "autor": "Albert Bandura",
+      "anio": 1997,
+      "resumen": "La creencia compartida de un equipo en su capacidad conjunta predice el rendimiento grupal.",
+      "cuando_usar": "Un equipo con buenas habilidades individuales pero bajo rendimiento conjunto."
+    },
+    {
+      "id": "b120",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Vulnerabilidad-Estrés",
+      "autor": "Zubin y Spring",
+      "anio": 1977,
+      "resumen": "El malestar surge de la interacción entre una vulnerabilidad de base y un factor de estrés desencadenante.",
+      "cuando_usar": "Explicar por qué la misma situación afecta de forma muy distinta a personas distintas."
+    },
+    {
+      "id": "b121",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Bienestar Hedónico vs. Eudaimónico",
+      "autor": "Alan Waterman",
+      "anio": 1993,
+      "resumen": "Distingue el bienestar por placer inmediato del bienestar por vivir de forma coherente con el propio potencial.",
+      "cuando_usar": "Ayudar a alguien a identificar si busca placer puntual o sentido más profundo."
+    },
+    {
+      "id": "b122",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Regulación del Sueño de Dos Procesos",
+      "autor": "Alexander Borbély",
+      "anio": 1982,
+      "resumen": "El sueño se regula por presión homeostática y ritmo circadiano actuando juntos.",
+      "cuando_usar": "Explicar de forma sencilla por qué dormir mal un día afecta a los siguientes."
+    },
+    {
+      "id": "b123",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Rumiación Reflexiva vs. Reflexión Bruta",
+      "autor": "Paul Trapnell",
+      "anio": 1999,
+      "resumen": "Distingue rumiar con intención de entenderse (reflexión) de rumiar de forma repetitiva sin avance (bruta).",
+      "cuando_usar": "Diferenciar autoconocimiento útil de rumiación estéril."
+    },
+    {
+      "id": "b124",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Estrés Traumático Secundario",
+      "autor": "Charles Figley",
+      "anio": 1995,
+      "resumen": "El malestar puede transmitirse al escuchar de forma sostenida el sufrimiento de otra persona.",
+      "cuando_usar": "Personas en roles de cuidado o soporte (RRHH, managers) que absorben el malestar del equipo."
+    },
+    {
+      "id": "b125",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Comparación Social Ascendente y Descendente",
+      "autor": "Thomas Wills",
+      "anio": 1981,
+      "resumen": "Compararse hacia arriba o hacia abajo tiene efectos distintos en la autoestima según el contexto.",
+      "cuando_usar": "Explicar por qué comparar con redes sociales suele generar más malestar que alivio."
+    },
+    {
+      "id": "b126",
+      "modulo": "bienestar",
+      "nombre": "Modelo Cognitivo-Conductual de la Fobia Social",
+      "autor": "David M. Clark y Adrian Wells",
+      "anio": 1995,
+      "resumen": "El miedo social se mantiene por atención autofocalizada excesiva y conductas de seguridad.",
+      "cuando_usar": "Ansiedad social en reuniones o presentaciones que no cede con exposición simple."
+    },
+    {
+      "id": "b127",
+      "modulo": "bienestar",
+      "nombre": "Teoría de las Fortalezas en Acción (VIA)",
+      "autor": "Christopher Peterson y Martin Seligman",
+      "anio": 2004,
+      "resumen": "Clasificación de 24 fortalezas de carácter universales, base de intervenciones en psicología positiva.",
+      "cuando_usar": "Identificar fortalezas concretas de una persona para orientar su desarrollo."
+    },
+    {
+      "id": "b128",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Disonancia Cognitiva",
+      "autor": "Leon Festinger",
+      "anio": 1957,
+      "resumen": "La incomodidad de sostener creencias o acciones contradictorias empuja a resolverla, a veces de forma poco saludable.",
+      "cuando_usar": "Explicar por qué alguien racionaliza una decisión que en el fondo le incomoda."
+    },
+    {
+      "id": "b129",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Control Percibido",
+      "autor": "Ellen Langer y Judith Rodin",
+      "anio": 1976,
+      "resumen": "Sentir control sobre pequeñas decisiones, incluso menores, mejora el bienestar de forma medible.",
+      "cuando_usar": "Diseñar entornos de trabajo que devuelvan sensación de agencia."
+    },
+    {
+      "id": "b130",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Regulación Emocional Basado en Procesos",
+      "autor": "James Gross y Ross Thompson",
+      "anio": 2007,
+      "resumen": "Extiende el modelo de proceso de Gross incorporando el desarrollo y el contexto social de la regulación.",
+      "cuando_usar": "Adaptar estrategias de regulación emocional según el contexto específico."
+    },
+    {
+      "id": "b131",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Sentido de Coherencia",
+      "autor": "Aaron Antonovsky",
+      "anio": 1979,
+      "resumen": "Comprensibilidad, manejabilidad y significatividad como pilares de la resiliencia ante la adversidad.",
+      "cuando_usar": "Evaluar qué dimensión de la resiliencia necesita más apoyo en una persona concreta."
+    },
+    {
+      "id": "b132",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Afrontamiento Anticipatorio de Amenazas",
+      "autor": "Charles Carver y Michael Scheier",
+      "anio": 1994,
+      "resumen": "Distingue el afrontamiento anticipatorio de un problema inminente del afrontamiento preventivo de un riesgo lejano.",
+      "cuando_usar": "Diferenciar cómo prepararse ante una amenaza inminente frente a un riesgo a largo plazo."
+    },
+    {
+      "id": "b133",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Optimismo Disposicional",
+      "autor": "Charles Carver y Michael Scheier",
+      "anio": 1985,
+      "resumen": "Distingue el optimismo como rasgo estable de la persona del optimismo como estilo explicativo puntual.",
+      "cuando_usar": "Diferenciar una tendencia general optimista de una interpretación puntual positiva."
+    },
+    {
+      "id": "b134",
+      "modulo": "bienestar",
+      "nombre": "Modelo de la Espiral de Recursos",
+      "autor": "Stevan Hobfoll",
+      "anio": 2001,
+      "resumen": "Las pérdidas de recursos generan más pérdidas; las ganancias generan más ganancias, en espiral.",
+      "cuando_usar": "Explicar por qué un mal periodo tiende a autoalimentarse si no se interviene pronto."
+    },
+    {
+      "id": "b135",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación Emocional Diádica",
+      "autor": "Sue Johnson",
+      "anio": 2004,
+      "resumen": "En terapia de pareja, la regulación emocional ocurre en la interacción, no solo dentro de cada persona.",
+      "cuando_usar": "Aplicado a conflictos interpersonales donde ambas partes se activan mutuamente."
+    },
+    {
+      "id": "b136",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Sabiduría Práctica",
+      "autor": "Barry Schwartz y Kenneth Sharpe",
+      "anio": 2010,
+      "resumen": "La capacidad de aplicar el juicio correcto en la situación correcta, más allá de reglas fijas.",
+      "cuando_usar": "Decisiones éticas o interpersonales complejas sin una regla clara que aplicar."
+    },
+    {
+      "id": "b137",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Desgaste por Compasión vs. Satisfacción por Compasión",
+      "autor": "Charles Figley y Beth Stamm",
+      "anio": 2002,
+      "resumen": "El cuidado de otros puede generar tanto desgaste como una fuente genuina de satisfacción, según el equilibrio.",
+      "cuando_usar": "Roles de cuidado (RRHH, managers, sanitarios) que necesitan sostener el propio bienestar."
+    },
+    {
+      "id": "b138",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Ciclo de la Procrastinación",
+      "autor": "Piers Steel",
+      "anio": 2007,
+      "resumen": "La procrastinación como función de la expectativa de éxito, el valor de la tarea, la impulsividad y la demora del resultado.",
+      "cuando_usar": "Entender por qué una tarea concreta se posterga de forma sistemática."
+    },
+    {
+      "id": "b139",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación del Ánimo mediante Actividad Física",
+      "autor": "Panteleimon Ekkekakis",
+      "anio": 2005,
+      "resumen": "La relación entre ejercicio y estado de ánimo depende de la intensidad percibida, no es lineal.",
+      "cuando_usar": "Recomendar actividad física de forma ajustada al estado emocional actual."
+    },
+    {
+      "id": "b140",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Autenticidad en el Trabajo",
+      "autor": "Michael Kernis",
+      "anio": 2003,
+      "resumen": "Actuar de forma coherente con los propios valores internos predice mayor bienestar sostenido.",
+      "cuando_usar": "Explorar la brecha entre cómo se actúa en el trabajo y lo que realmente se valora."
+    },
+    {
+      "id": "b141",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Perdón hacia Uno Mismo",
+      "autor": "Julie Hall y Frank Fincham",
+      "anio": 2005,
+      "resumen": "El perdón propio requiere un proceso distinto al perdón hacia otros, con sus propias etapas.",
+      "cuando_usar": "Culpa persistente por un error propio que no cede con el tiempo."
+    },
+    {
+      "id": "b142",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Necesidades Psicológicas Básicas en el Trabajo",
+      "autor": "Marylène Gagné y Edward Deci",
+      "anio": 2005,
+      "resumen": "Autonomía, competencia y relación como predictores directos de motivación y bienestar laboral.",
+      "cuando_usar": "Diagnosticar qué necesidad psicológica básica no se está cubriendo en un puesto."
+    },
+    {
+      "id": "b143",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación Atencional en la Ansiedad",
+      "autor": "Michael Eysenck",
+      "anio": 2007,
+      "resumen": "La ansiedad reduce el control atencional voluntario y aumenta la atención a amenazas percibidas.",
+      "cuando_usar": "Explicar por qué cuesta concentrarse en tareas concretas durante periodos de ansiedad."
+    },
+    {
+      "id": "b144",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Trauma Complejo",
+      "autor": "Judith Herman",
+      "anio": 1992,
+      "resumen": "Distingue el trauma único del trauma repetido y prolongado, con secuelas distintas.",
+      "cuando_usar": "Situaciones de estrés sostenido en el tiempo, no un evento único identificable."
+    },
+    {
+      "id": "b145",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación Emocional a través del Lenguaje",
+      "autor": "Matthew Lieberman",
+      "anio": 2007,
+      "resumen": "Poner palabras a una emoción reduce la actividad de la amígdala (afecto labeling).",
+      "cuando_usar": "Base científica de por qué nombrar una emoción con precisión ayuda a regularla."
+    },
+    {
+      "id": "b146",
+      "modulo": "bienestar",
+      "nombre": "Modelo de las Microrrestauraciones",
+      "autor": "Kate Lee y Kevin Williams",
+      "anio": 2008,
+      "resumen": "Pausas breves con contacto con naturaleza o cambio de entorno restauran la capacidad atencional.",
+      "cuando_usar": "Diseñar micro-pausas efectivas dentro de una jornada laboral intensa."
+    },
+    {
+      "id": "b147",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Estrés por Sobrecarga de Rol",
+      "autor": "Robert Kahn",
+      "anio": 1964,
+      "resumen": "El malestar surge de tener más demandas de las que el tiempo y los recursos permiten cubrir.",
+      "cuando_usar": "Diferenciar sobrecarga de rol de otras causas de estrés laboral."
+    },
+    {
+      "id": "b148",
+      "modulo": "bienestar",
+      "nombre": "Modelo de la Autocompasión en el Duelo",
+      "autor": "Kristin Neff y Christopher Germer",
+      "anio": 2013,
+      "resumen": "Aplicación específica de la autocompasión al proceso de pérdida y duelo.",
+      "cuando_usar": "Duelo acompañado de autocrítica por 'no llevarlo bien'."
+    },
+    {
+      "id": "b149",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación Emocional en el Liderazgo",
+      "autor": "Sigal Barsade y Donald Gibson",
+      "anio": 2007,
+      "resumen": "El estado emocional del líder tiene un efecto desproporcionado en el clima del equipo.",
+      "cuando_usar": "Trabajar con managers la gestión de su propio estado emocional visible."
+    },
+    {
+      "id": "b150",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Justicia Interaccional",
+      "autor": "Robert Bies y Joseph Moag",
+      "anio": 1986,
+      "resumen": "La percepción de trato justo en la comunicación (no solo en el resultado) predice el bienestar laboral.",
+      "cuando_usar": "Situaciones donde una decisión fue correcta pero mal comunicada, generando malestar igualmente."
+    },
+    {
+      "id": "b151",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Ciclo de la Culpa Adaptativa vs. Desadaptativa",
+      "autor": "June Tangney",
+      "anio": 2002,
+      "resumen": "Distingue la culpa que motiva reparación de la que solo genera parálisis y autocrítica.",
+      "cuando_usar": "Diferenciar una culpa útil de una que no lleva a ninguna acción reparadora."
+    },
+    {
+      "id": "b152",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Bienestar Ocupacional de Warr",
+      "autor": "Peter Warr",
+      "anio": 1987,
+      "resumen": "Nueve características del entorno laboral (control, uso de habilidades, metas claras, entre otras) que predicen bienestar.",
+      "cuando_usar": "Diagnosticar de forma estructurada qué aspectos del puesto afectan más al bienestar."
+    },
+    {
+      "id": "b153",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Estrés Alostático",
+      "autor": "Bruce McEwen",
+      "anio": 1993,
+      "resumen": "El desgaste acumulado por activación repetida del sistema de estrés, más allá del estrés puntual.",
+      "cuando_usar": "Explicar el deterioro de salud por estrés sostenido durante años, no un episodio agudo."
+    },
+    {
+      "id": "b154",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Regulación Emocional en la Infancia Aplicado al Adulto",
+      "autor": "Ross Thompson",
+      "anio": 1994,
+      "resumen": "Cómo los patrones de regulación aprendidos en la infancia siguen operando, y cómo actualizarlos.",
+      "cuando_usar": "Personas cuyo patrón de regulación emocional parece 'desactualizado' respecto a su vida adulta."
+    },
+    {
+      "id": "b155",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autocompasión y la Motivación al Cambio",
+      "autor": "Juliana Breines y Serena Chen",
+      "anio": 2012,
+      "resumen": "La autocompasión, no la culpa, predice mayor motivación real para corregir un error.",
+      "cuando_usar": "Contrarrestar la creencia de que hay que sentirse mal para cambiar de verdad."
+    },
+    {
+      "id": "b156",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Ciclo de Evitación Experiencial",
+      "autor": "Steven Hayes",
+      "anio": 1996,
+      "resumen": "Evitar una emoción incómoda a corto plazo suele reforzar el problema a largo plazo.",
+      "cuando_usar": "Explicar por qué evitar sistemáticamente una situación temida empeora la ansiedad con el tiempo."
+    },
+    {
+      "id": "b157",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Bienestar Psicológico de Ryff",
+      "autor": "Carol Ryff",
+      "anio": 1989,
+      "resumen": "Seis dimensiones (autonomía, dominio del entorno, crecimiento personal, relaciones, propósito, autoaceptación) de bienestar.",
+      "cuando_usar": "Evaluar el bienestar de una persona de forma más completa que solo el estado de ánimo."
+    },
+    {
+      "id": "b158",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Activación Fisiológica y Rendimiento (Yerkes-Dodson)",
+      "autor": "Robert Yerkes y John Dodson",
+      "anio": 1908,
+      "resumen": "El rendimiento mejora con la activación hasta un punto óptimo, y luego empeora si sigue subiendo.",
+      "cuando_usar": "Explicar por qué un poco de presión ayuda pero demasiada perjudica el rendimiento."
+    },
+    {
+      "id": "b159",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación Emocional a través del Arte y la Escritura",
+      "autor": "James Pennebaker",
+      "anio": 1997,
+      "resumen": "Expresar una experiencia difícil por escrito reduce su carga emocional de forma medible.",
+      "cuando_usar": "Proponer la escritura expresiva como herramienta de procesamiento emocional."
+    },
+    {
+      "id": "b160",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Ciclo de la Ansiedad Anticipatoria",
+      "autor": "David Barlow",
+      "anio": 1988,
+      "resumen": "La ansiedad ante una amenaza futura se autoalimenta mediante la propia atención a la posibilidad de ansiedad.",
+      "cuando_usar": "Ansiedad sobre tener ansiedad, un patrón que se retroalimenta."
+    },
+    {
+      "id": "b161",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autorregulación de Baumeister",
+      "autor": "Roy Baumeister",
+      "anio": 1998,
+      "resumen": "El autocontrol funciona como un recurso limitado que se agota con el uso (ego depletion), aunque matizado por estudios posteriores.",
+      "cuando_usar": "Explicar la dificultad de mantener disciplina en varias áreas de la vida a la vez."
+    },
+    {
+      "id": "b162",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Bienestar en el Trabajo Híbrido",
+      "autor": "Investigación post-2020 en teletrabajo",
+      "anio": 2021,
+      "resumen": "Nuevas variables de bienestar específicas del trabajo híbrido: aislamiento, límites difusos, fatiga por videollamadas.",
+      "cuando_usar": "Diagnosticar malestar específico del contexto de trabajo remoto o híbrido."
+    },
+    {
+      "id": "b163",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Recuperación del Estrés (Effort-Recovery Model)",
+      "autor": "Ejnar Meijman y Gijsbertus Mulder",
+      "anio": 1998,
+      "resumen": "El cuerpo necesita fases de recuperación proporcionales al esfuerzo invertido, o se acumula deuda de recuperación.",
+      "cuando_usar": "Explicar por qué el descanso insuficiente entre picos de esfuerzo genera agotamiento progresivo."
+    },
+    {
+      "id": "b164",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Autocompasión en el Liderazgo",
+      "autor": "Kristin Neff y Serena Chen",
+      "anio": 2018,
+      "resumen": "Los líderes con más autocompasión gestionan mejor el error y modelan una cultura de aprendizaje más sana.",
+      "cuando_usar": "Trabajar con managers muy autoexigentes que también son duros con su equipo."
+    },
+    {
+      "id": "b165",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación del Estado de Ánimo mediante Rutinas",
+      "autor": "Nick Hobson",
+      "anio": 2018,
+      "resumen": "Los rituales y rutinas reducen la incertidumbre percibida y regulan el estado emocional de forma indirecta.",
+      "cuando_usar": "Diseñar rutinas personales que sostengan el estado de ánimo en periodos inciertos."
+    },
+    {
+      "id": "b166",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Detección Temprana del Malestar Psicológico",
+      "autor": "Betty Kitchener y Anthony Jorm",
+      "anio": 2001,
+      "resumen": "Marco de primeros auxilios en salud mental para identificar señales tempranas antes de una crisis.",
+      "cuando_usar": "Formar a managers para reconocer señales tempranas de malestar en su equipo."
+    },
+    {
+      "id": "b167",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Justicia Distributiva en el Trabajo",
+      "autor": "John Stacey Adams",
+      "anio": 1965,
+      "resumen": "La percepción de reparto justo de recompensas, no solo la cantidad, predice la satisfacción laboral.",
+      "cuando_usar": "Explicar malestar cuando la carga o recompensa se percibe mal distribuida en un equipo."
+    },
+    {
+      "id": "b168",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Bienestar Financiero y Salud Mental",
+      "autor": "Investigación en bienestar financiero",
+      "anio": 2019,
+      "resumen": "El estrés financiero tiene un impacto directo y medible en la salud mental, independiente de otros factores.",
+      "cuando_usar": "Reconocer el estrés financiero como un factor legítimo de malestar a abordar."
+    },
+    {
+      "id": "b169",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Sesgo de Negatividad",
+      "autor": "Paul Rozin y Edward Royzman",
+      "anio": 2001,
+      "resumen": "El cerebro da más peso a la información negativa que a la positiva de forma sistemática.",
+      "cuando_usar": "Explicar por qué un comentario negativo pesa más que varios positivos en la memoria."
+    },
+    {
+      "id": "b170",
+      "modulo": "bienestar",
+      "nombre": "Modelo de la Regulación Emocional en la Toma de Decisiones",
+      "autor": "Antonio Damasio",
+      "anio": 1994,
+      "resumen": "Las emociones son necesarias para decidir bien, no un obstáculo a eliminar del razonamiento (hipótesis del marcador somático).",
+      "cuando_usar": "Contrarrestar la creencia de que las buenas decisiones son solo racionales, sin emoción."
+    },
+    {
+      "id": "b171",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Modelo Dual del Afecto",
+      "autor": "Robert Thayer",
+      "anio": 1989,
+      "resumen": "El estado de ánimo se puede describir en dos ejes: energía y tensión, útil para intervenciones prácticas.",
+      "cuando_usar": "Ayudar a alguien a identificar si necesita más energía, menos tensión, o ambas cosas."
+    },
+    {
+      "id": "b172",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Resiliencia Familiar Aplicado a Equipos",
+      "autor": "Froma Walsh",
+      "anio": 1996,
+      "resumen": "Sistemas de creencias compartidas, patrones organizativos y comunicación como pilares de resiliencia colectiva.",
+      "cuando_usar": "Aplicar principios de resiliencia familiar a la resiliencia de un equipo de trabajo."
+    },
+    {
+      "id": "b173",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación Emocional por Distracción Atencional",
+      "autor": "Michael Posner",
+      "anio": 1990,
+      "resumen": "Redirigir voluntariamente la atención es una estrategia legítima de regulación, no evitación por defecto.",
+      "cuando_usar": "Distinguir cuándo distraerse de una emoción es adaptativo y cuándo es evitación problemática."
+    },
+    {
+      "id": "b174",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Autocuidado Basado en Evidencia",
+      "autor": "Investigación en bienestar ocupacional",
+      "anio": 2015,
+      "resumen": "Distingue prácticas de autocuidado con respaldo empírico de las que son solo tendencia sin evidencia.",
+      "cuando_usar": "Recomendar prácticas de autocuidado con base real, no solo populares."
+    },
+    {
+      "id": "b175",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Ciclo del Reconocimiento y la Motivación",
+      "autor": "Frederick Herzberg",
+      "anio": 1959,
+      "resumen": "El reconocimiento actúa como factor motivador, distinto de los factores higiénicos que solo evitan la insatisfacción.",
+      "cuando_usar": "Explicar por qué mejorar solo condiciones básicas no aumenta la motivación real."
+    },
+    {
+      "id": "b176",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Bienestar en la Diversidad e Inclusión",
+      "autor": "Investigación en DEI organizacional",
+      "anio": 2018,
+      "resumen": "El bienestar de grupos minoritarios en una organización depende de factores específicos más allá del bienestar general.",
+      "cuando_usar": "Diagnosticar necesidades de bienestar específicas de un grupo subrepresentado."
+    },
+    {
+      "id": "b177",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación Emocional a través de la Música",
+      "autor": "Investigación en musicoterapia",
+      "anio": 2013,
+      "resumen": "La música tiene efectos medibles y específicos en la regulación del estado de ánimo y la activación fisiológica.",
+      "cuando_usar": "Proponer la música como herramienta complementaria de regulación emocional."
+    },
+    {
+      "id": "b178",
+      "modulo": "bienestar",
+      "nombre": "Modelo de la Espiral del Silencio en Equipos",
+      "autor": "Elizabeth Noelle-Neumann (adaptado a organizaciones)",
+      "anio": 1974,
+      "resumen": "El miedo a expresar una opinión minoritaria refuerza el silencio, perpetuando una falsa unanimidad.",
+      "cuando_usar": "Explicar por qué un problema evidente para varios no se nombra en un equipo."
+    },
+    {
+      "id": "b179",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Umbral de Estrés Individual",
+      "autor": "Hans Selye (desarrollo posterior)",
+      "anio": 1956,
+      "resumen": "Cada persona tiene un umbral distinto de tolerancia al estrés, sin que eso indique debilidad ni fortaleza moral.",
+      "cuando_usar": "Normalizar diferencias individuales en la tolerancia al estrés dentro de un equipo."
+    },
+    {
+      "id": "b180",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Regulación Emocional Basada en Compasión hacia Otros",
+      "autor": "Paul Gilbert",
+      "anio": 2010,
+      "resumen": "Practicar compasión activa hacia otros también regula el propio sistema nervioso de quien la practica.",
+      "cuando_usar": "Explicar el beneficio bidireccional de ayudar a otros en momentos de malestar propio."
+    },
+    {
+      "id": "b181",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Contagio del Optimismo en Equipos",
+      "autor": "Shane Lopez",
+      "anio": 2013,
+      "resumen": "El optimismo, igual que el estrés, se transmite socialmente dentro de un equipo.",
+      "cuando_usar": "Explicar el efecto del optimismo de un líder en el estado de ánimo general del equipo."
+    },
+    {
+      "id": "b182",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Modelo Cognitivo-Social de Autorregulación",
+      "autor": "Barry Zimmerman",
+      "anio": 1989,
+      "resumen": "Ciclo de planificación, ejecución y autorreflexión que sostiene la autorregulación efectiva del comportamiento.",
+      "cuando_usar": "Ayudar a estructurar el proceso de cambio de un hábito en tres fases claras."
+    },
+    {
+      "id": "b183",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Bienestar Digital",
+      "autor": "Investigación en tecnología y salud mental",
+      "anio": 2019,
+      "resumen": "El uso del móvil y notificaciones tiene efectos medibles y específicos sobre el bienestar y la atención.",
+      "cuando_usar": "Diseñar límites saludables de uso de dispositivos digitales en el trabajo."
+    },
+    {
+      "id": "b184",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación Emocional por Reencuadre Temporal",
+      "autor": "Y. Trope y N. Liberman",
+      "anio": 2003,
+      "resumen": "Ver un problema desde una distancia temporal mayor (dentro de un año) reduce su carga emocional inmediata.",
+      "cuando_usar": "Ayudar a relativizar un problema actual imaginando su importancia futura."
+    },
+    {
+      "id": "b185",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Afrontamiento Basado en Sentido",
+      "autor": "Susan Folkman (desarrollo posterior)",
+      "anio": 1997,
+      "resumen": "Encontrar significado en una experiencia difícil como estrategia de afrontamiento distinta de resolver el problema.",
+      "cuando_usar": "Situaciones que no se pueden resolver, solo dotar de sentido."
+    },
+    {
+      "id": "b186",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Recuperación Psicológica del Trabajo",
+      "autor": "Sabine Sonnentag y Charlotte Fritz",
+      "anio": 2007,
+      "resumen": "Cuatro experiencias de recuperación: desconexión, relajación, control y dominio, cada una con función distinta.",
+      "cuando_usar": "Diseñar actividades de desconexión que realmente restauren energía, no solo distraigan."
+    },
+    {
+      "id": "b187",
+      "modulo": "bienestar",
+      "nombre": "Modelo de la Espiral Ascendente de Emociones Positivas",
+      "autor": "Barbara Fredrickson",
+      "anio": 2002,
+      "resumen": "Las emociones positivas generan recursos que facilitan más emociones positivas, en una espiral de refuerzo.",
+      "cuando_usar": "Diseñar intervenciones breves que inicien una espiral positiva sostenible."
+    },
+    {
+      "id": "b188",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autocompasión ante la Comparación Social",
+      "autor": "Kristin Neff (aplicación específica)",
+      "anio": 2011,
+      "resumen": "La autocompasión amortigua el efecto negativo de compararse desfavorablemente con otros.",
+      "cuando_usar": "Contrarrestar el malestar de la comparación social crónica en redes o en el trabajo."
+    },
+    {
+      "id": "b189",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Efecto Zeigarnik en la Carga Mental",
+      "autor": "Bluma Zeigarnik",
+      "anio": 1927,
+      "resumen": "Las tareas inacabadas ocupan más espacio mental que las completadas, generando carga cognitiva persistente.",
+      "cuando_usar": "Explicar por qué las tareas pendientes 'pesan' aunque no se estén haciendo activamente."
+    },
+    {
+      "id": "b190",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación Emocional en la Toma de Perspectiva",
+      "autor": "Daniel Batson",
+      "anio": 1997,
+      "resumen": "Adoptar la perspectiva de otra persona regula la propia respuesta emocional ante un conflicto.",
+      "cuando_usar": "Reducir la intensidad emocional de un conflicto ayudando a ver la perspectiva ajena."
+    },
+    {
+      "id": "b191",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Bienestar Basado en Necesidades de Autodeterminación en el Duelo",
+      "autor": "Aplicación de Deci y Ryan al duelo",
+      "anio": 2010,
+      "resumen": "Las tres necesidades básicas (autonomía, competencia, relación) también aplican al proceso de adaptación tras una pérdida.",
+      "cuando_usar": "Acompañar un duelo prestando atención a qué necesidad básica está más afectada."
+    },
+    {
+      "id": "b192",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Fatiga Atencional (Attention Restoration Theory)",
+      "autor": "Rachel y Stephen Kaplan",
+      "anio": 1989,
+      "resumen": "Entornos naturales restauran la capacidad de atención dirigida de forma más eficaz que el descanso pasivo.",
+      "cuando_usar": "Recomendar pausas específicas en entornos naturales para restaurar el foco."
+    },
+    {
+      "id": "b193",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Regulación del Estrés a través del Humor",
+      "autor": "Rod Martin",
+      "anio": 2003,
+      "resumen": "El humor adaptativo (no el autodestructivo) es una estrategia legítima de regulación emocional bajo estrés.",
+      "cuando_usar": "Reconocer el humor como recurso válido de afrontamiento, distinguiendo su uso saludable del evitativo."
+    },
+    {
+      "id": "b194",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autocompasión en la Recuperación de Errores Profesionales",
+      "autor": "Kristin Neff y Christopher Germer (aplicación laboral)",
+      "anio": 2018,
+      "resumen": "Aplicación específica de la autocompasión a la recuperación tras un error visible en el trabajo.",
+      "cuando_usar": "Acompañar a alguien tras cometer un error significativo delante de su equipo."
+    },
+    {
+      "id": "b195",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Bienestar Basado en la Teoría de Conservación de Recursos Aplicada a Equipos",
+      "autor": "Stevan Hobfoll (extensión grupal)",
+      "anio": 2018,
+      "resumen": "Los recursos se pueden perder o ganar también a nivel de equipo, no solo individual.",
+      "cuando_usar": "Diagnosticar el desgaste colectivo de un equipo, no solo el de sus miembros por separado."
+    },
+    {
+      "id": "b196",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Regulación Emocional Basada en Valores",
+      "autor": "Steven Hayes (aplicación específica de ACT)",
+      "anio": 2005,
+      "resumen": "Actuar según los propios valores, incluso con emociones incómodas presentes, sostiene el bienestar a largo plazo.",
+      "cuando_usar": "Ayudar a actuar de forma coherente con los valores propios pese al malestar puntual."
+    },
+    {
+      "id": "b197",
+      "modulo": "bienestar",
+      "nombre": "Modelo del Ciclo de Restauración del Sueño tras Estrés Agudo",
+      "autor": "Michael Perlis (aplicación)",
+      "anio": 2015,
+      "resumen": "Cómo el sueño se ve específicamente afectado tras un evento estresante puntual, y cómo recuperarlo.",
+      "cuando_usar": "Situaciones de insomnio tras un evento estresante concreto y reciente."
+    },
+    {
+      "id": "b198",
+      "modulo": "bienestar",
+      "nombre": "Teoría de la Autoeficacia ante el Cambio Organizacional",
+      "autor": "Albert Bandura (aplicación al cambio)",
+      "anio": 1997,
+      "resumen": "La creencia en la propia capacidad de adaptarse predice mejor la respuesta al cambio que la actitud hacia el cambio en sí.",
+      "cuando_usar": "Trabajar la confianza de alguien para afrontar un cambio organizativo importante."
+    },
+    {
+      "id": "b199",
+      "modulo": "bienestar",
+      "nombre": "Modelo de Regulación Emocional Grupal en Crisis",
+      "autor": "Sigal Barsade (aplicación a crisis)",
+      "anio": 2010,
+      "resumen": "Cómo se regula el estado emocional colectivo de un equipo durante una crisis compartida.",
+      "cuando_usar": "Gestionar el estado emocional de un equipo durante un periodo de crisis organizativa."
+    },
+    {
+      "id": "b200",
+      "modulo": "bienestar",
+      "nombre": "Teoría del Bienestar a través del Servicio a Otros",
+      "autor": "Investigación en altruismo y bienestar",
+      "anio": 2008,
+      "resumen": "Actos de ayuda a otros generan un beneficio medible en el bienestar de quien los realiza (helper's high).",
+      "cuando_usar": "Proponer acciones de ayuda a otros como vía indirecta de mejora del propio bienestar."
+    },
+    {
+      "id": "c101",
+      "modulo": "coaching",
+      "nombre": "Modelo de las Cinco Conversaciones de Whyte",
+      "autor": "David Whyte",
+      "anio": 2001,
+      "resumen": "Con uno mismo, con el trabajo, con los otros, con el mundo, y con lo desconocido — como marco de desarrollo integral.",
+      "cuando_usar": "Explorar el propósito de una persona más allá de metas puramente profesionales."
+    },
+    {
+      "id": "c102",
+      "modulo": "coaching",
+      "nombre": "Coaching Narrativo",
+      "autor": "David Drake",
+      "anio": 2007,
+      "resumen": "Trabaja con la historia que una persona se cuenta de sí misma para abrir nuevas posibilidades de acción.",
+      "cuando_usar": "Alguien atascado en una narrativa fija sobre lo que puede o no puede hacer."
+    },
+    {
+      "id": "c103",
+      "modulo": "coaching",
+      "nombre": "Modelo de Liderazgo Adaptativo",
+      "autor": "Ronald Heifetz",
+      "anio": 1994,
+      "resumen": "Distingue problemas técnicos (con solución conocida) de problemas adaptativos (que exigen aprendizaje nuevo).",
+      "cuando_usar": "Diagnosticar si un problema de equipo necesita una solución técnica o un cambio más profundo."
+    },
+    {
+      "id": "c104",
+      "modulo": "coaching",
+      "nombre": "Teoría del Compromiso Organizacional",
+      "autor": "John Meyer y Natalie Allen",
+      "anio": 1991,
+      "resumen": "Distingue compromiso afectivo, de continuidad y normativo, cada uno con implicaciones distintas.",
+      "cuando_usar": "Entender por qué alguien se queda en un puesto aunque no esté satisfecho."
+    },
+    {
+      "id": "c105",
+      "modulo": "coaching",
+      "nombre": "Modelo de Conversaciones Cruciales",
+      "autor": "Kerry Patterson",
+      "anio": 2002,
+      "resumen": "Herramientas para mantener el diálogo abierto cuando hay opiniones opuestas, alto riesgo y emociones fuertes.",
+      "cuando_usar": "Conversaciones donde el desacuerdo amenaza con romper la comunicación."
+    },
+    {
+      "id": "c106",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo de Nivel 5",
+      "autor": "Jim Collins",
+      "anio": 2001,
+      "resumen": "Combina humildad personal extrema con voluntad profesional férrea como perfil de liderazgo más efectivo.",
+      "cuando_usar": "Analizar el estilo de liderazgo de alguien con resultados sostenidos en el tiempo."
+    },
+    {
+      "id": "c107",
+      "modulo": "coaching",
+      "nombre": "Modelo de Feedback Continuo",
+      "autor": "Josh Bersin",
+      "anio": 2015,
+      "resumen": "Sustituye la evaluación anual única por ciclos cortos y frecuentes de feedback bidireccional.",
+      "cuando_usar": "Diseñar un sistema de feedback que no dependa solo de la revisión anual."
+    },
+    {
+      "id": "c108",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Autonomía Guiada",
+      "autor": "Amy Edmondson",
+      "anio": 2012,
+      "resumen": "Dar autonomía real dentro de límites claros, no autonomía total ni control total.",
+      "cuando_usar": "Delegar de forma que la persona tenga margen de decisión real sin perder dirección."
+    },
+    {
+      "id": "c109",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching Transformacional",
+      "autor": "Robert Hargrove",
+      "anio": 1995,
+      "resumen": "Va más allá de resolver un problema puntual: busca un cambio de identidad o forma de operar en el mundo.",
+      "cuando_usar": "Procesos de coaching de largo alcance, no solo resolución de un reto concreto."
+    },
+    {
+      "id": "c110",
+      "modulo": "coaching",
+      "nombre": "Teoría de los Roles de Belbin en Equipo",
+      "autor": "Meredith Belbin",
+      "anio": 1981,
+      "resumen": "Nueve roles complementarios (coordinador, implementador, etc.) que predicen la eficacia de un equipo.",
+      "cuando_usar": "Analizar por qué un equipo con buen talento individual no rinde bien en conjunto."
+    },
+    {
+      "id": "c111",
+      "modulo": "coaching",
+      "nombre": "Modelo de Comunicación Asertiva DESC",
+      "autor": "Sharon Bower y Gordon Bower",
+      "anio": 1976,
+      "resumen": "Describir, expresar, especificar y consecuencias, como estructura de una petición asertiva.",
+      "cuando_usar": "Estructurar una petición difícil de forma clara sin agresividad ni pasividad."
+    },
+    {
+      "id": "c112",
+      "modulo": "coaching",
+      "nombre": "Teoría del Contrato Psicológico Relacional vs. Transaccional",
+      "autor": "Denise Rousseau (desarrollo posterior)",
+      "anio": 1995,
+      "resumen": "Distingue contratos psicológicos transaccionales (intercambio concreto) de relacionales (vínculo a largo plazo), con rupturas de efecto distinto.",
+      "cuando_usar": "Diagnosticar qué tipo de contrato psicológico se ha roto para calibrar la gravedad percibida."
+    },
+    {
+      "id": "c113",
+      "modulo": "coaching",
+      "nombre": "Modelo de Toma de Decisiones Naturalista",
+      "autor": "Gary Klein",
+      "anio": 1998,
+      "resumen": "Cómo deciden los expertos bajo presión de tiempo, basándose en reconocimiento de patrones más que en análisis exhaustivo.",
+      "cuando_usar": "Entender cómo un manager experimentado decide rápido en una crisis."
+    },
+    {
+      "id": "c114",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Justicia Procedimental",
+      "autor": "Gerald Leventhal",
+      "anio": 1980,
+      "resumen": "La percepción de justicia en el proceso de una decisión importa tanto como el resultado final.",
+      "cuando_usar": "Explicar por qué una decisión impopular puede aceptarse mejor si el proceso fue percibido como justo."
+    },
+    {
+      "id": "c115",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Carrera de Schlossberg",
+      "autor": "Nancy Schlossberg",
+      "anio": 1981,
+      "resumen": "Analiza una transición de carrera según la situación, el yo, el apoyo y las estrategias disponibles.",
+      "cuando_usar": "Acompañar una transición profesional significativa (ascenso, cambio de sector, despido)."
+    },
+    {
+      "id": "c116",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo Distribuido",
+      "autor": "James Spillane",
+      "anio": 2001,
+      "resumen": "El liderazgo como práctica compartida entre varias personas, no como atributo de un único rol.",
+      "cuando_usar": "Equipos donde el liderazgo formal e informal no coinciden en la misma persona."
+    },
+    {
+      "id": "c117",
+      "modulo": "coaching",
+      "nombre": "Modelo de Conversación de Coaching GROW Extendido (TGROW)",
+      "autor": "Graham Alexander",
+      "anio": 1980,
+      "resumen": "Añade una fase de 'tema' (Topic) antes del objetivo, para clarificar de qué se quiere hablar realmente.",
+      "cuando_usar": "Sesiones de coaching donde el tema de partida no está del todo claro."
+    },
+    {
+      "id": "c118",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Equidad de Adams",
+      "autor": "John Stacey Adams",
+      "anio": 1963,
+      "resumen": "La motivación depende de la percepción de equilibrio entre lo que se aporta y lo que se recibe, comparado con otros.",
+      "cuando_usar": "Explicar desmotivación cuando alguien percibe una recompensa injusta en relación a sus pares."
+    },
+    {
+      "id": "c119",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching Basado en Fortalezas",
+      "autor": "Alex Linley",
+      "anio": 2008,
+      "resumen": "Centra el desarrollo en identificar y aplicar fortalezas ya presentes, más que en corregir debilidades.",
+      "cuando_usar": "Diseñar un plan de desarrollo centrado en lo que la persona ya hace bien."
+    },
+    {
+      "id": "c120",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Autoconciencia de Eurich",
+      "autor": "Tasha Eurich",
+      "anio": 2017,
+      "resumen": "Distingue autoconciencia interna (cómo me veo) de externa (cómo me ven), y su desarrollo requiere métodos distintos.",
+      "cuando_usar": "Ayudar a alguien a obtener una imagen de sí mismo más completa, no solo introspectiva."
+    },
+    {
+      "id": "c121",
+      "modulo": "coaching",
+      "nombre": "Modelo de Retroalimentación 4A de Netflix",
+      "autor": "Cultura corporativa de Netflix",
+      "anio": 2009,
+      "resumen": "Con la intención de ayudar, accionable, apreciar y aceptar o descartar, como marco de feedback ágil.",
+      "cuando_usar": "Culturas que buscan feedback rápido e informal en vez de procesos formales pesados."
+    },
+    {
+      "id": "c122",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo Auténtico Basado en Valores",
+      "autor": "Bill George",
+      "anio": 2003,
+      "resumen": "El liderazgo sostenible nace de conocer y actuar según los propios valores fundamentales.",
+      "cuando_usar": "Trabajar con un líder que siente incoherencia entre cómo actúa y lo que valora."
+    },
+    {
+      "id": "c123",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Equipos Sistémico",
+      "autor": "Peter Hawkins",
+      "anio": 2011,
+      "resumen": "El equipo se entiende como un sistema con su propia dinámica, no como la suma de sus individuos.",
+      "cuando_usar": "Intervenciones donde el problema no está en ninguna persona concreta sino en el patrón del equipo."
+    },
+    {
+      "id": "c124",
+      "modulo": "coaching",
+      "nombre": "Teoría de las Expectativas de Vroom",
+      "autor": "Victor Vroom",
+      "anio": 1964,
+      "resumen": "La motivación depende de expectativa, instrumentalidad y valencia — tres cálculos que hace la persona.",
+      "cuando_usar": "Diagnosticar en cuál de los tres componentes está fallando la motivación de alguien."
+    },
+    {
+      "id": "c125",
+      "modulo": "coaching",
+      "nombre": "Modelo de Liderazgo Situacional II",
+      "autor": "Ken Blanchard",
+      "anio": 1985,
+      "resumen": "Actualización del modelo original que separa más claramente competencia y compromiso como ejes distintos.",
+      "cuando_usar": "Casos donde alta competencia coincide con bajo compromiso, o viceversa."
+    },
+    {
+      "id": "c126",
+      "modulo": "coaching",
+      "nombre": "Teoría del Compromiso Discrecional",
+      "autor": "Towers Watson (estudios de engagement)",
+      "anio": 2009,
+      "resumen": "Distingue el esfuerzo mínimo requerido del esfuerzo extra que una persona decide dar voluntariamente.",
+      "cuando_usar": "Entender qué mueve a alguien a dar más de lo estrictamente necesario en su rol."
+    },
+    {
+      "id": "c127",
+      "modulo": "coaching",
+      "nombre": "Modelo de Feedback Ascendente Estructurado",
+      "autor": "Prácticas de gestión participativa",
+      "anio": 2000,
+      "resumen": "Marco para que el feedback de reportes hacia managers sea sistemático, no solo ocasional.",
+      "cuando_usar": "Diseñar un canal formal para que el equipo dé feedback a su manager con seguridad."
+    },
+    {
+      "id": "c128",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Motivación por Autonomía en Equipos Ágiles",
+      "autor": "Daniel Pink",
+      "anio": 2009,
+      "resumen": "Autonomía, maestría y propósito como los tres motivadores intrínsecos más potentes en el trabajo del conocimiento.",
+      "cuando_usar": "Rediseñar la motivación de un equipo más allá de incentivos económicos."
+    },
+    {
+      "id": "c129",
+      "modulo": "coaching",
+      "nombre": "Modelo de Conversaciones de Desarrollo Continuo",
+      "autor": "Julie Winkle Giulioni",
+      "anio": 2014,
+      "resumen": "Conversaciones de carrera breves y frecuentes, en vez de una única revisión anual de desarrollo.",
+      "cuando_usar": "Sustituir la conversación de carrera anual por check-ins más regulares."
+    },
+    {
+      "id": "c130",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo Inclusivo",
+      "autor": "Juliet Bourke",
+      "anio": 2016,
+      "resumen": "Seis rasgos (compromiso, coraje, conciencia de sesgo, curiosidad, inteligencia cultural y colaboración) del liderazgo inclusivo.",
+      "cuando_usar": "Evaluar y desarrollar prácticas de liderazgo más inclusivas en un equipo diverso."
+    },
+    {
+      "id": "c131",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching Axiológico",
+      "autor": "Salvador García y Shimon Dolan",
+      "anio": 1997,
+      "resumen": "Coaching centrado en clarificar y alinear los valores personales con las decisiones profesionales.",
+      "cuando_usar": "Decisiones profesionales que generan malestar por desalineación de valores."
+    },
+    {
+      "id": "c132",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Herencia de Equipo",
+      "autor": "Prácticas de gestión de transiciones",
+      "anio": 2010,
+      "resumen": "Cómo gestionar de forma deliberada la entrada a un equipo con una historia y reputación previas.",
+      "cuando_usar": "Managers que heredan un equipo con dinámicas ya instaladas, buenas o malas."
+    },
+    {
+      "id": "c133",
+      "modulo": "coaching",
+      "nombre": "Modelo de Escalera de Inferencias Aplicado a Feedback",
+      "autor": "Chris Argyris",
+      "anio": 1990,
+      "resumen": "Aplicación específica de la escalera de inferencias para preparar conversaciones de feedback más objetivas.",
+      "cuando_usar": "Preparar un feedback separando observación de interpretación antes de darlo."
+    },
+    {
+      "id": "c134",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo Basado en Fortalezas de Equipo",
+      "autor": "Tom Rath",
+      "anio": 2007,
+      "resumen": "Los equipos de alto rendimiento se construyen combinando fortalezas complementarias, no clonando un perfil ideal.",
+      "cuando_usar": "Formar un equipo nuevo maximizando la diversidad de fortalezas."
+    },
+    {
+      "id": "c135",
+      "modulo": "coaching",
+      "nombre": "Modelo de Conversaciones de Reconocimiento Estructurado",
+      "autor": "Prácticas de gestión del talento",
+      "anio": 2015,
+      "resumen": "Marco para dar reconocimiento de forma específica, oportuna y vinculada a un comportamiento concreto.",
+      "cuando_usar": "Managers que reconocen poco o de forma genérica, sin impacto real."
+    },
+    {
+      "id": "c136",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Confianza Rápida en Equipos Temporales",
+      "autor": "Debra Meyerson",
+      "anio": 1996,
+      "resumen": "Cómo se construye confianza funcional en equipos de corta duración sin tiempo para el proceso habitual.",
+      "cuando_usar": "Equipos de proyecto temporales que necesitan colaborar bien desde el primer día."
+    },
+    {
+      "id": "c137",
+      "modulo": "coaching",
+      "nombre": "Modelo de Liderazgo por Valores en Crisis",
+      "autor": "US Army War College (entorno VUCA)",
+      "anio": 1987,
+      "resumen": "Marco para liderar en contextos de volatilidad, incertidumbre, complejidad y ambigüedad.",
+      "cuando_usar": "Liderar equipos en periodos de cambio rápido o información incompleta."
+    },
+    {
+      "id": "c138",
+      "modulo": "coaching",
+      "nombre": "Teoría del Aprendizaje Social en Equipos",
+      "autor": "Etienne Wenger",
+      "anio": 1998,
+      "resumen": "El aprendizaje ocurre en comunidades de práctica, mediante participación, no solo mediante formación formal.",
+      "cuando_usar": "Diseñar espacios informales de aprendizaje entre pares dentro de un equipo."
+    },
+    {
+      "id": "c139",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching para la Transición a Manager",
+      "autor": "Linda Hill",
+      "anio": 2003,
+      "resumen": "Los primeros meses como manager por primera vez tienen retos psicológicos específicos y predecibles.",
+      "cuando_usar": "Acompañar a alguien que lidera personas por primera vez en su carrera."
+    },
+    {
+      "id": "c140",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Autoridad Informal",
+      "autor": "John Kotter",
+      "anio": 1985,
+      "resumen": "Distingue el poder que da el cargo del que se gana mediante credibilidad y relaciones, y cómo construir el segundo.",
+      "cuando_usar": "Alguien con autoridad formal que no logra influir realmente en su equipo."
+    },
+    {
+      "id": "c141",
+      "modulo": "coaching",
+      "nombre": "Modelo de Feedback Orientado al Futuro",
+      "autor": "Marshall Goldsmith",
+      "anio": 2002,
+      "resumen": "El feedforward pide sugerencias para el futuro en vez de críticas sobre el pasado, reduciendo la defensividad.",
+      "cuando_usar": "Personas que reaccionan mal al feedback tradicional pero responden mejor a sugerencias futuras."
+    },
+    {
+      "id": "c142",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Escucha Generativa",
+      "autor": "Otto Scharmer",
+      "anio": 2007,
+      "resumen": "Cuatro niveles de escucha, del hábito a la escucha generativa que permite que emerja algo nuevo.",
+      "cuando_usar": "Mejorar la calidad de escucha de un líder en conversaciones complejas."
+    },
+    {
+      "id": "c143",
+      "modulo": "coaching",
+      "nombre": "Modelo de Gestión del Desempeño Continuo",
+      "autor": "Deloitte (rediseño de evaluación)",
+      "anio": 2015,
+      "resumen": "Sustituye la evaluación anual por check-ins semanales breves centrados en el futuro, no en calificar el pasado.",
+      "cuando_usar": "Rediseñar un sistema de evaluación de desempeño percibido como burocrático."
+    },
+    {
+      "id": "c144",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Resiliencia Organizacional",
+      "autor": "Karl Weick",
+      "anio": 1993,
+      "resumen": "Cómo las organizaciones (no solo las personas) desarrollan capacidad de recuperarse ante lo inesperado.",
+      "cuando_usar": "Analizar la capacidad de un equipo u organización de adaptarse a una crisis."
+    },
+    {
+      "id": "c145",
+      "modulo": "coaching",
+      "nombre": "Modelo de Conversaciones de Coaching Basadas en Preguntas Circulares",
+      "autor": "Terapia sistémica (Mara Selvini Palazzoli)",
+      "anio": 1980,
+      "resumen": "Preguntas que exploran las relaciones y percepciones mutuas dentro de un sistema, no solo hechos aislados.",
+      "cuando_usar": "Explorar dinámicas de equipo donde varias personas están implicadas en el mismo patrón."
+    },
+    {
+      "id": "c146",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Motivación de Logro",
+      "autor": "David McClelland",
+      "anio": 1961,
+      "resumen": "Distingue necesidad de logro, de afiliación y de poder como motivadores dominantes distintos en cada persona.",
+      "cuando_usar": "Identificar qué tipo de motivación predomina en una persona para ajustar cómo delegarle retos."
+    },
+    {
+      "id": "c147",
+      "modulo": "coaching",
+      "nombre": "Modelo de Liderazgo Ejemplar",
+      "autor": "James Kouzes y Barry Posner",
+      "anio": 1987,
+      "resumen": "Cinco prácticas (modelar el camino, inspirar visión compartida, desafiar el proceso, habilitar a otros, alentar el corazón).",
+      "cuando_usar": "Marco estructurado para evaluar y desarrollar prácticas de liderazgo concretas."
+    },
+    {
+      "id": "c148",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Capital Psicológico (PsyCap)",
+      "autor": "Fred Luthans",
+      "anio": 2007,
+      "resumen": "Esperanza, autoeficacia, resiliencia y optimismo como recursos psicológicos entrenables que predicen rendimiento.",
+      "cuando_usar": "Diseñar intervenciones de desarrollo centradas en estos cuatro recursos psicológicos."
+    },
+    {
+      "id": "c149",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Presentaciones y Comunicación Pública",
+      "autor": "Nancy Duarte",
+      "anio": 2010,
+      "resumen": "Estructura narrativa aplicada a presentaciones profesionales para maximizar el impacto del mensaje.",
+      "cuando_usar": "Preparar a alguien para una presentación importante ante dirección o clientes."
+    },
+    {
+      "id": "c150",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo Compartido en Equipos Directivos",
+      "autor": "Craig Pearce y Jay Conger",
+      "anio": 2003,
+      "resumen": "El liderazgo puede rotar según la tarea y la experiencia relevante, no residir siempre en la misma persona.",
+      "cuando_usar": "Equipos directivos donde distintos miembros lideran distintas iniciativas según su expertise."
+    },
+    {
+      "id": "c151",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Alta Confianza (Trust-Based Coaching)",
+      "autor": "Stephen M. R. Covey",
+      "anio": 2006,
+      "resumen": "La velocidad y calidad de una relación de coaching dependen directamente del nivel de confianza construido.",
+      "cuando_usar": "Diagnosticar por qué un proceso de coaching avanza lento pese a buena voluntad de ambas partes."
+    },
+    {
+      "id": "c152",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo Situacional Aplicado a Equipos Remotos",
+      "autor": "Adaptación de Ken Blanchard",
+      "anio": 2020,
+      "resumen": "El nivel de dirección y apoyo necesario cambia en contextos remotos, donde la supervisión visual no existe.",
+      "cuando_usar": "Ajustar el estilo de liderazgo situacional al contexto de trabajo remoto."
+    },
+    {
+      "id": "c153",
+      "modulo": "coaching",
+      "nombre": "Modelo de Preguntas Poderosas de Coaching Ontológico",
+      "autor": "Rafael Echeverría",
+      "anio": 1994,
+      "resumen": "El lenguaje no describe la realidad, la crea — las preguntas y el lenguaje generan nuevas posibilidades de acción.",
+      "cuando_usar": "Ayudar a alguien a ver una situación desde un marco lingüístico distinto."
+    },
+    {
+      "id": "c154",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Motivación de Equipos Multiculturales",
+      "autor": "Geert Hofstede",
+      "anio": 1980,
+      "resumen": "Las dimensiones culturales (distancia de poder, individualismo, etc.) afectan qué motiva a cada persona.",
+      "cuando_usar": "Gestionar un equipo con miembros de culturas organizacionales o nacionales distintas."
+    },
+    {
+      "id": "c155",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching para la Resiliencia de Carrera",
+      "autor": "Douglas Hall",
+      "anio": 1996,
+      "resumen": "La 'carrera proteana' se adapta de forma flexible a los cambios, en vez de seguir una trayectoria lineal fija.",
+      "cuando_usar": "Acompañar a alguien en una carrera con varios giros o cambios de dirección."
+    },
+    {
+      "id": "c156",
+      "modulo": "coaching",
+      "nombre": "Teoría de las Conversaciones Generativas en Liderazgo",
+      "autor": "Otto Scharmer",
+      "anio": 2009,
+      "resumen": "El diálogo que permite emerger algo nuevo, no solo defender posiciones ya formadas (Teoría U).",
+      "cuando_usar": "Facilitar una conversación de equipo donde se busca una solución realmente nueva, no un compromiso entre posturas."
+    },
+    {
+      "id": "c157",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Alta Dirección (Executive Coaching)",
+      "autor": "Marshall Goldsmith",
+      "anio": 2000,
+      "resumen": "Enfoque específico de coaching para perfiles directivos, centrado en cambios de comportamiento observables.",
+      "cuando_usar": "Procesos de coaching con perfiles senior o C-level."
+    },
+    {
+      "id": "c158",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Motivación por Maestría",
+      "autor": "Carol Dweck y Ellen Leggett",
+      "anio": 1988,
+      "resumen": "Distingue metas de rendimiento (demostrar competencia) de metas de aprendizaje (desarrollar competencia).",
+      "cuando_usar": "Diagnosticar si alguien está motivado por demostrar valía o por aprender de verdad."
+    },
+    {
+      "id": "c159",
+      "modulo": "coaching",
+      "nombre": "Modelo de Feedback de 360 Grados Estructurado",
+      "autor": "Prácticas de desarrollo de liderazgo",
+      "anio": 1990,
+      "resumen": "Recoger feedback de jefes, pares y reportes de forma sistemática para una imagen más completa.",
+      "cuando_usar": "Diseñar un proceso de evaluación de liderazgo desde múltiples perspectivas."
+    },
+    {
+      "id": "c160",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo Basado en el Propósito",
+      "autor": "Nikos Mourkogiannis",
+      "anio": 2006,
+      "resumen": "Un propósito organizacional claro y compartido predice mayor compromiso que los incentivos por sí solos.",
+      "cuando_usar": "Ayudar a un líder a articular y comunicar el propósito de su equipo o iniciativa."
+    },
+    {
+      "id": "c161",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching para Equipos en Fusión (M&A)",
+      "autor": "Prácticas de integración post-fusión",
+      "anio": 2010,
+      "resumen": "Marco específico para acompañar equipos durante procesos de fusión o adquisición empresarial.",
+      "cuando_usar": "Equipos atravesando una integración organizativa tras una fusión o adquisición."
+    },
+    {
+      "id": "c162",
+      "modulo": "coaching",
+      "nombre": "Teoría del Compromiso a través del Significado del Trabajo",
+      "autor": "Amy Wrzesniewski",
+      "anio": 1997,
+      "resumen": "Distingue ver el trabajo como empleo, carrera o vocación, cada uno con relación distinta al compromiso.",
+      "cuando_usar": "Explorar qué relación tiene una persona con el sentido de su propio trabajo."
+    },
+    {
+      "id": "c163",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching para la Gestión del Cambio Personal",
+      "autor": "William Bridges",
+      "anio": 1991,
+      "resumen": "Aplicación del modelo de transiciones (final, zona neutra, nuevo comienzo) al desarrollo individual dentro del coaching.",
+      "cuando_usar": "Acompañar a alguien en un cambio de rol, no solo organizativo sino personal."
+    },
+    {
+      "id": "c164",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Retroalimentación Orientada a Fortalezas",
+      "autor": "Marcus Buckingham",
+      "anio": 2001,
+      "resumen": "El desarrollo es más efectivo centrado en amplificar fortalezas que en corregir debilidades de forma exhaustiva.",
+      "cuando_usar": "Diseñar un plan de desarrollo centrado en amplificar lo que ya funciona."
+    },
+    {
+      "id": "c165",
+      "modulo": "coaching",
+      "nombre": "Modelo de Liderazgo Consciente (Conscious Leadership)",
+      "autor": "Diana Chapman y otros",
+      "anio": 2015,
+      "resumen": "Distingue liderar 'por encima de la línea' (responsabilidad, curiosidad) de 'por debajo' (culpa, defensividad).",
+      "cuando_usar": "Trabajar la autoconciencia de un líder ante situaciones de conflicto o presión."
+    },
+    {
+      "id": "c166",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Confianza Basada en Competencia, Integridad y Benevolencia",
+      "autor": "Roger Mayer",
+      "anio": 1995,
+      "resumen": "Tres componentes distintos de la confianza que se construyen y se rompen de formas diferentes.",
+      "cuando_usar": "Diagnosticar qué componente concreto de la confianza se ha dañado en una relación laboral."
+    },
+    {
+      "id": "c167",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching Grupal Estructurado",
+      "autor": "Prácticas de desarrollo organizacional",
+      "anio": 2005,
+      "resumen": "Marco para sesiones de coaching con varias personas a la vez, distinto del coaching individual o de equipo intacto.",
+      "cuando_usar": "Diseñar sesiones de coaching para un grupo de personas sin relación jerárquica directa entre ellas."
+    },
+    {
+      "id": "c168",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Autoeficacia de Liderazgo",
+      "autor": "Fred Luthans y otros",
+      "anio": 2004,
+      "resumen": "La creencia de una persona en su propia capacidad de liderar predice, de forma medible, su desempeño real como líder.",
+      "cuando_usar": "Trabajar la autoconfianza de alguien que asume un rol de liderazgo por primera vez."
+    },
+    {
+      "id": "c169",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Transición a la Jubilación o Salida",
+      "autor": "Prácticas de gestión de carrera senior",
+      "anio": 2012,
+      "resumen": "Marco específico para acompañar el cierre de una etapa profesional larga.",
+      "cuando_usar": "Acompañar a alguien en la última fase de su carrera dentro de una organización."
+    },
+    {
+      "id": "c170",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Comunicación de Alto Contexto vs. Bajo Contexto",
+      "autor": "Edward Hall",
+      "anio": 1976,
+      "resumen": "Culturas de alto contexto comunican de forma indirecta; las de bajo contexto, de forma explícita — clave en equipos internacionales.",
+      "cuando_usar": "Explicar malentendidos de comunicación en equipos multiculturales."
+    },
+    {
+      "id": "c171",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Resiliencia ante el Fracaso",
+      "autor": "Amy Edmondson (aplicado a coaching individual)",
+      "anio": 2011,
+      "resumen": "Distinguir fracasos inteligentes (de los que se aprende) de fracasos evitables, para procesar el error sin parálisis.",
+      "cuando_usar": "Acompañar a alguien tras un fracaso profesional significativo."
+    },
+    {
+      "id": "c172",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo Basado en Preguntas",
+      "autor": "Michael Marquardt",
+      "anio": 2005,
+      "resumen": "Liderar generando buenas preguntas en el equipo, en vez de tener siempre la respuesta correcta.",
+      "cuando_usar": "Desarrollar en un líder el hábito de preguntar antes de dar soluciones."
+    },
+    {
+      "id": "c173",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching para la Gestión de la Ambigüedad",
+      "autor": "Prácticas de liderazgo en entornos VUCA",
+      "anio": 2015,
+      "resumen": "Herramientas específicas para tomar decisiones y actuar con información incompleta de forma sostenida.",
+      "cuando_usar": "Líderes que deben decidir con frecuencia sin toda la información que querrían tener."
+    },
+    {
+      "id": "c174",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Retroalimentación como Regalo",
+      "autor": "Sheila Heen y Douglas Stone",
+      "anio": 2014,
+      "resumen": "Reencuadrar el feedback recibido como información útil ofrecida, no como ataque a defenderse.",
+      "cuando_usar": "Trabajar la capacidad de recibir feedback difícil sin reacción defensiva."
+    },
+    {
+      "id": "c175",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Liderazgo Colaborativo",
+      "autor": "Craig Pearce",
+      "anio": 2003,
+      "resumen": "Desarrollar la capacidad de un líder de compartir influencia en vez de concentrarla, según la tarea y el contexto.",
+      "cuando_usar": "Desarrollar líderes que dependen en exceso de tomar todas las decisiones ellos mismos."
+    },
+    {
+      "id": "c176",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Motivación por Contribución Social",
+      "autor": "Adam Grant",
+      "anio": 2013,
+      "resumen": "Enmarcar el trabajo en términos de impacto en otros aumenta la motivación y persistencia de forma medible.",
+      "cuando_usar": "Reconectar a alguien desmotivado con el impacto real de su trabajo en otras personas."
+    },
+    {
+      "id": "c177",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching para Primeros Líderes (First-Time Managers)",
+      "autor": "Linda Hill (desarrollo aplicado)",
+      "anio": 2007,
+      "resumen": "Los retos psicológicos específicos de pasar de contribuir individualmente a liderar personas por primera vez.",
+      "cuando_usar": "Acompañar a alguien en su primer rol de gestión de personas."
+    },
+    {
+      "id": "c178",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Escucha Activa en el Liderazgo Ejecutivo",
+      "autor": "Carl Rogers y Richard Farson (aplicado a management)",
+      "anio": 1957,
+      "resumen": "La escucha activa como herramienta de liderazgo, no solo de terapia — validar sin necesariamente estar de acuerdo.",
+      "cuando_usar": "Desarrollar la escucha de un líder que tiende a interrumpir o dar soluciones demasiado rápido."
+    },
+    {
+      "id": "c179",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Equipos Interculturales",
+      "autor": "Fons Trompenaars",
+      "anio": 1993,
+      "resumen": "Dimensiones culturales aplicadas específicamente a la dinámica y coaching de equipos multinacionales.",
+      "cuando_usar": "Facilitar la colaboración en equipos con normas culturales de trabajo distintas."
+    },
+    {
+      "id": "c180",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Autoridad Moral en el Liderazgo",
+      "autor": "Robert Greenleaf (desarrollo posterior)",
+      "anio": 1977,
+      "resumen": "La autoridad que se gana sirviendo genuinamente a otros, no solo ejerciendo un cargo.",
+      "cuando_usar": "Diferenciar autoridad formal de autoridad moral real ganada con el equipo."
+    },
+    {
+      "id": "c181",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Negociación Interna",
+      "autor": "William Ury (aplicado a organizaciones)",
+      "anio": 1991,
+      "resumen": "Aplicación de principios de negociación de Harvard a conflictos internos de una organización, no solo externos.",
+      "cuando_usar": "Mediar en un desacuerdo entre departamentos o equipos dentro de la misma empresa."
+    },
+    {
+      "id": "c182",
+      "modulo": "coaching",
+      "nombre": "Teoría del Compromiso a través de la Autonomía Estructurada",
+      "autor": "Investigación en equipos ágiles",
+      "anio": 2016,
+      "resumen": "Los equipos con autonomía dentro de un marco claro rinden mejor que los totalmente libres o totalmente controlados.",
+      "cuando_usar": "Diseñar el nivel correcto de autonomía para un equipo de trabajo específico."
+    },
+    {
+      "id": "c183",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching para el Síndrome del Impostor en Liderazgo",
+      "autor": "Aplicación de Clance e Imes a contextos directivos",
+      "anio": 2015,
+      "resumen": "El síndrome del impostor es especialmente frecuente en personas que acceden rápido a roles de liderazgo.",
+      "cuando_usar": "Acompañar a un líder recién promocionado que duda de merecer su nuevo rol."
+    },
+    {
+      "id": "c184",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Retroalimentación Basada en Datos",
+      "autor": "Prácticas de People Analytics",
+      "anio": 2018,
+      "resumen": "Combinar feedback cualitativo con datos objetivos de desempeño para conversaciones más equilibradas.",
+      "cuando_usar": "Preparar una conversación de desempeño combinando percepción y datos concretos."
+    },
+    {
+      "id": "c185",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Transición Cultural",
+      "autor": "Prácticas de onboarding internacional",
+      "anio": 2012,
+      "resumen": "Acompañar la adaptación de alguien a una cultura organizacional o nacional distinta a la propia.",
+      "cuando_usar": "Apoyar a alguien que se incorpora a un equipo con normas culturales muy distintas a las suyas."
+    },
+    {
+      "id": "c186",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Motivación por Reconocimiento entre Pares",
+      "autor": "Investigación en recognition programs",
+      "anio": 2017,
+      "resumen": "El reconocimiento entre compañeros tiene un efecto motivacional distinto y complementario al del manager.",
+      "cuando_usar": "Diseñar mecanismos de reconocimiento que no dependan solo de la jerarquía."
+    },
+    {
+      "id": "c187",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Alto Rendimiento bajo Presión",
+      "autor": "Prácticas de psicología del deporte aplicadas a empresa",
+      "anio": 2010,
+      "resumen": "Técnicas de preparación mental de alto rendimiento adaptadas a contextos profesionales de alta presión.",
+      "cuando_usar": "Preparar a alguien para un evento profesional de alta exigencia (presentación clave, negociación importante)."
+    },
+    {
+      "id": "c188",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo Relacional",
+      "autor": "Mary Uhl-Bien",
+      "anio": 2006,
+      "resumen": "El liderazgo como proceso relacional que emerge entre las personas, no como propiedad fija de un individuo.",
+      "cuando_usar": "Analizar el liderazgo de un equipo como fenómeno colectivo, no solo del manager formal."
+    },
+    {
+      "id": "c189",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching para la Gestión de Expectativas de Cliente Interno",
+      "autor": "Buenas prácticas de gestión de proyectos",
+      "anio": 2015,
+      "resumen": "Herramientas para alinear expectativas cuando el 'cliente' es otro equipo dentro de la misma organización.",
+      "cuando_usar": "Gestionar la relación entre un equipo de servicio interno y sus clientes internos."
+    },
+    {
+      "id": "c190",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Motivación por Progreso (Principio del Progreso)",
+      "autor": "Teresa Amabile",
+      "anio": 2011,
+      "resumen": "El avance visible en un trabajo con sentido es el motivador diario más potente identificado en estudios de campo.",
+      "cuando_usar": "Diseñar el trabajo de un equipo para que el progreso sea visible de forma regular."
+    },
+    {
+      "id": "c191",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching para el Liderazgo Silencioso",
+      "autor": "Prácticas de liderazgo introvertido",
+      "anio": 2012,
+      "resumen": "Formas de liderar efectivas para perfiles introvertidos, distintas del modelo extrovertido dominante.",
+      "cuando_usar": "Desarrollar a un líder introvertido sin forzarlo a un estilo extrovertido que no le es propio."
+    },
+    {
+      "id": "c192",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Retroalimentación de Refuerzo Positivo",
+      "autor": "B.F. Skinner (aplicado a gestión)",
+      "anio": 1938,
+      "resumen": "El refuerzo positivo consistente moldea el comportamiento de forma más sostenible que el castigo del error.",
+      "cuando_usar": "Diseñar un sistema de feedback que refuerce más lo que funciona que lo que falla."
+    },
+    {
+      "id": "c193",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Equipos Post-Crisis",
+      "autor": "Prácticas de recuperación organizacional",
+      "anio": 2020,
+      "resumen": "Marco para reconstruir la confianza y el rendimiento de un equipo tras una crisis (recorte, escándalo, fallo grave).",
+      "cuando_usar": "Acompañar a un equipo en la recuperación tras un evento organizativo traumático."
+    },
+    {
+      "id": "c194",
+      "modulo": "coaching",
+      "nombre": "Teoría del Liderazgo Ambidiestro",
+      "autor": "Charles O'Reilly y Michael Tushman",
+      "anio": 2004,
+      "resumen": "La capacidad de un líder de explotar lo que ya funciona y explorar nuevas oportunidades a la vez.",
+      "cuando_usar": "Analizar el equilibrio de un líder entre mantener la eficiencia actual e innovar."
+    },
+    {
+      "id": "c195",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching para la Sucesión de Liderazgo",
+      "autor": "Prácticas de planificación de sucesión",
+      "anio": 2010,
+      "resumen": "Preparar de forma deliberada a la siguiente generación de líderes dentro de una organización.",
+      "cuando_usar": "Diseñar un plan de desarrollo para alguien identificado como sucesor potencial de un rol clave."
+    },
+    {
+      "id": "c196",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Retroalimentación de Bajo Riesgo",
+      "autor": "Prácticas de aprendizaje organizacional",
+      "anio": 2016,
+      "resumen": "Crear contextos de bajo riesgo (simulaciones, pilotos) para practicar antes de la situación real de alto riesgo.",
+      "cuando_usar": "Preparar a alguien para una conversación difícil practicándola primero en un contexto seguro."
+    },
+    {
+      "id": "c197",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de la Voz Propia en Reuniones",
+      "autor": "Prácticas de desarrollo de comunicación",
+      "anio": 2018,
+      "resumen": "Herramientas específicas para ayudar a alguien a participar con más presencia en reuniones donde tiende a callar.",
+      "cuando_usar": "Desarrollar a alguien que tiene buenas ideas pero rara vez las comparte en grupo."
+    },
+    {
+      "id": "c198",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Motivación por Pertenencia en Equipos Remotos",
+      "autor": "Investigación en trabajo distribuido",
+      "anio": 2021,
+      "resumen": "El sentido de pertenencia requiere prácticas deliberadas distintas en equipos que no comparten espacio físico.",
+      "cuando_usar": "Diseñar prácticas de equipo que refuercen la pertenencia en un contexto remoto o híbrido."
+    },
+    {
+      "id": "c199",
+      "modulo": "coaching",
+      "nombre": "Teoría de la Retroalimentación Correctiva Efectiva",
+      "autor": "Center for Creative Leadership (desarrollo)",
+      "anio": 1998,
+      "resumen": "Principios específicos que hacen que una corrección se reciba como útil y no como ataque.",
+      "cuando_usar": "Refinar la forma de dar una corrección para que se reciba mejor sin perder claridad."
+    },
+    {
+      "id": "c200",
+      "modulo": "coaching",
+      "nombre": "Modelo de Coaching de Liderazgo entre Generaciones",
+      "autor": "Prácticas de gestión de equipos multigeneracionales",
+      "anio": 2019,
+      "resumen": "Herramientas específicas de coaching cuando el coach y la persona coacheada son de generaciones distintas.",
+      "cuando_usar": "Procesos de coaching o mentoring entre personas de generaciones muy distintas."
+    }
+  ]
+}
